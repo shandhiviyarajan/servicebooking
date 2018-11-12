@@ -1,0 +1,705 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+}
+
+img.dimo_logo,
+img.bosh_logo {
+    display: block;
+    margin: 0 auto;
+    -webkit-transform: translateY(40px);
+    -moz-transform: translateY(40px);
+    -ms-transform: translateY(40px);
+    -o-transform: translateY(40px);
+    transform: translateY(40px);
+}
+
+#dimo_theme {
+    background: #024059;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#dimo_theme header {
+    background: #004D6C;
+    height: 100px;
+}
+
+#dimo_theme header h2 {
+    color: #fff;
+    font-size: 24px;
+    padding-top: 60px;
+    font-weight: bold;
+}
+
+#dimo_theme header img.dimo_logo {
+    width: 200px !important;
+}
+
+#dimo_theme.dimo-bg {
+    background: url("/public/images/dimo-bg.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+#dimo_theme.dimo-bg header {
+    background: transparent;
+    height: auto;
+}
+
+#dimo_theme.dimo-bg header h2 {
+    padding-top: 44px;
+}
+
+#dimo_theme.dimo-bg header img.dimo_logo {
+    margin: 15px auto;
+    -webkit-transform: translate(0px);
+    -moz-transform: translate(0px);
+    -ms-transform: translate(0px);
+    -o-transform: translate(0px);
+    transform: translate(0px);
+    width: 200px !important;
+}
+
+.dimo-landing {
+    min-height: 500px;
+}
+
+.dimo-landing header {
+    background: #004D6C;
+    height: 100px;
+}
+
+.dimo-landing header h2 {
+    font-weight: bold;
+    color: #fff;
+    font-size: 24px;
+    padding-top: 60px;
+}
+
+.dimo-landing header img.dimo_logo {
+    width: 200px !important;
+}
+
+.bosh-landing {
+    min-height: 500px;
+}
+
+.bosh-landing .col-md-5 {
+    padding-top: 20px;
+}
+
+.bosh-landing .col-md-5 > a {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.bosh-landing .col-md-5 > a img {
+    width: 100%;
+}
+
+.bosh-landing .col-md-5 > a button {
+    font-size: 36px;
+    width: 90px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -45px;
+    bottom: -10px;
+    height: 90px;
+    border-radius: 100px;
+    border: thin solid rgba(0, 80, 100, 0.3);
+    color: #fff;
+    background: #076eac;
+    box-shadow: 0px 2px 10px rgba(51, 51, 51, 0.5);
+}
+
+.bosh-landing .col-md-5 > a button:hover {
+    background: #054f7b;
+}
+
+.bosh-landing header {
+    background: #01424F;
+    height: 100px;
+}
+
+.bosh-landing header h2 {
+    font-weight: bold;
+    color: #fff;
+    font-size: 24px;
+    padding-top: 60px;
+}
+
+#bosh_theme {
+    background: #01424F;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#bosh_theme header {
+    background: #005161;
+    height: 100px;
+}
+
+#bosh_theme header h2 {
+    font-weight: bold;
+    color: #fff;
+    font-size: 24px;
+    padding-top: 60px;
+}
+
+#bosh_theme.bosh-bg {
+    background: url("/public/images/bosh-bg.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+#bosh_theme.bosh-bg header {
+    background: transparent;
+    height: auto;
+}
+
+#bosh_theme.bosh-bg header h2 {
+    padding-top: 44px;
+}
+
+#bosh_theme.bosh-bg header img.bosh_logo {
+    margin: 15px auto;
+    -webkit-transform: translate(0px);
+    -moz-transform: translate(0px);
+    -ms-transform: translate(0px);
+    -o-transform: translate(0px);
+    transform: translate(0px);
+}
+
+.left-nav {
+    padding: 0px 0px;
+}
+
+.left-nav ul li {
+    list-style: none;
+    margin-top: 1px;
+}
+
+.left-nav ul li a {
+    padding: 20px 30px;
+    display: block;
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0px -15px;
+}
+
+.left-nav ul li a:hover {
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.left-nav ul li img {
+    margin-right: 15px;
+    float: left;
+}
+
+.left-nav ul li span {
+    display: block;
+}
+
+.left-nav ul li.active a {
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.brand-logo {
+
+    width: 52px;
+    height: 52px;
+    margin-right: 15px;
+}
+
+.btn-submit {
+    height: 52px;
+    background: #4A90E2;
+    font-size: 14px;
+    font-weight: bold;
+    width: 240px;
+    margin: 0 auto;
+}
+
+.login-form {
+    padding: 100px 0px;
+}
+
+.login-form .btn-facebook,
+.login-form .btn-google {
+    background: #2662A8;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    height: 52px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.login-form .btn-facebook:hover,
+.login-form .btn-google:hover {
+    background: #1d4a7e;
+}
+
+.login-form .btn-facebook i.fa,
+.login-form .btn-google i.fa {
+    margin-right: 7px;
+}
+
+.login-form .btn-google {
+    background: #D9364A;
+}
+
+.login-form .btn-google:hover {
+    background: #b92335;
+}
+
+.login-form .btn-submit {
+    width: 100%;
+    font-size: 16px;
+}
+
+.login-form .or-divider {
+    margin: 30px 0px;
+    border-bottom: thin solid #909090;
+    width: 100%;
+}
+
+.login-form .or-divider p {
+    text-align: center;
+    background: #024059;
+    width: 44px;
+    margin: 0 auto;
+    display: block;
+    transform: translateY(12px);
+}
+
+.login-form .form-element input[type="text"],
+.login-form .form-element input[type="password"] {
+    box-shadow: none;
+    height: 52px;
+}
+
+.login-form .form-element input[type="text"]:focus,
+.login-form .form-element input[type="password"]:focus {
+    border: 2px solid #004eac;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
+}
+
+.login-form p {
+    color: #909090;
+}
+
+.login-form a {
+    color: #84B9F8;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.login-form h2 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0px 0px 15px 0px;
+}
+
+.form-content {
+    height: 100vh;
+    margin: 0px -15px 0px -15px;
+}
+
+.form-content form {
+    display: block;
+    padding: 15px 30px;
+}
+
+.form-content h2 {
+    justify-content: left;
+    align-items: center;
+    color: #000;
+    border-bottom: thin solid #d8d8d8;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 30px;
+    background: #ece9e9;
+}
+
+.form-content h2 label {
+    font-size: 12px;
+    padding: 7px 15px;
+    border-radius: 4px;
+    margin: 0px 0px 0px 15px;
+}
+
+.form-element {
+    margin-bottom: 25px;
+}
+
+.form-element .btn-check {
+    background: #f1f1f1;
+    height: 40px;
+    border: thin solid rgba(0, 80, 100, 0.3);
+}
+
+.form-element .btn-check span {
+    font-size: 9px;
+    display: inline-block;
+    text-align: left;
+}
+
+.form-element label {
+    font-weight: bold;
+    color: #767676;    display: block;
+    font-size: 12px;
+    margin: 0px 0px 5px 0px;
+}
+
+.form-element a {
+    font-size: 13px;
+}
+
+.form-element a.btn {
+    text-decoration: none;
+}
+
+.form-element table tr td {
+    padding: 3px 7px;
+    vertical-align: middle;
+}
+
+.form-element textarea,
+.form-element input[type="text"],
+.form-element input[type="date"],
+.form-element input[type="datetime"],
+.form-element input[type="password"],
+.form-element input[type="email"],
+.form-element input[type="date"],
+.form-element select {
+    background: #f8f8f8;
+    border: thin solid rgba(0, 80, 100, 0.3);
+    height: 44px;
+    font-size: 18px;
+    color: #000;
+    border-radius: 4px;
+    box-shadow: 0px 2px 4px rgba(215, 215, 215, 0.5);
+    padding-left: 20px;
+}
+
+.form-element textarea:focus,
+.form-element input[type="text"]:focus,
+.form-element input[type="date"]:focus,
+.form-element input[type="datetime"]:focus,
+.form-element input[type="password"]:focus,
+.form-element input[type="email"]:focus,
+.form-element input[type="date"]:focus,
+.form-element select:focus {
+    border: 1px solid #076eac;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
+    background: #fff;
+}
+
+.form-element .btn-submit,
+.form-element .btn-clear {
+    height: 40px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    box-shadow: 0px 2px 10px rgba(51, 51, 51, 0.5);
+}
+
+.form-element .btn-clear {
+    background: #bababa;
+}
+
+.form-element textarea {
+    height: 120px;
+}
+
+div.checkbox {
+    position: relative;
+}
+
+div.checkbox input[type="checkbox"] {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    opacity: 0;
+}
+
+div.checkbox:after {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: '';
+    width: 24px;
+    height: 24px;
+    display: block;
+    border-radius: 4px;
+    border: thin solid rgba(0, 80, 100, 0.3);
+    box-shadow: 0px 2px 4px rgba(215, 215, 215, 0.5);
+}
+
+div.checkbox.active:after {
+    background: #388041;
+    content: "\f00c";
+    padding-top: 4px;
+    text-align: center;
+    color: #fff;
+    font: normal normal normal 14px/1 FontAwesome;
+}
+
+div.checkbox label {
+    font-size: 14px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+.profile-dropdown {
+    float: right;
+    margin-top: 36px;
+}
+
+.profile-dropdown button {
+    padding-top: 10px;
+    background: rgba(2, 64, 89, 0.5);
+    border: none;
+}
+
+.profile-dropdown button:hover {
+    background: #024059;
+}
+
+.profile-dropdown button:active {
+    background: #024059 !important;
+}
+
+.profile-dropdown button img {
+    float: left;
+    margin-right: 7px;
+}
+
+.dimo-landing a {
+    width: 220px;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    border-radius: 4px;
+    padding: 30px 0px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100 */
+    background: #ffffff;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #ffffff 0%, #ffffff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #ffffff 0%, #ffffff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0);
+    /* IE6-9 */
+    box-shadow: 0px 6px 20px rgba(180, 180, 180, 0.5);
+    height: 250px;
+    -webkit-transition: background .3s ease;
+    -moz-transition: background .3s ease;
+    -ms-transition: background .3s ease;
+    -o-transition: background .3s ease;
+    transition: background .3s ease;
+}
+
+.dimo-landing a p {
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}
+
+.dimo-landing a img, .dimo-landing a figure {
+    display: block;
+    margin: 0 auto;
+}
+
+.dimo-landing a img.b-text {
+    margin: 15px auto;
+    width: 120px;
+}
+
+.dimo-landing a img.c-logo {
+    width: 180px;
+    margin-top: 65px;
+}
+
+.dimo-landing a img.j-logo {
+    width: 120px;
+    margin-top: 40px;
+}
+
+.dimo-landing a figure.car {
+    position: absolute;
+    z-index: 1000;
+    right: 15px;
+    bottom: -60px;
+}
+
+.dimo-landing a figure.car img {
+    width: 230px;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .2s ease;
+    -moz-transition: .2s ease;
+    -ms-transition: .2s ease;
+    -o-transition: .2s ease;
+    transition: .2s ease;
+}
+
+.dimo-landing a figure.b-commercial {
+    bottom: -75px;
+}
+
+.dimo-landing a figure.b-commercial p {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.dimo-landing a figure.b-passenger {
+    bottom: -90px;
+}
+
+.dimo-landing a figure.b-passenger p {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.dimo-landing a figure.b-passenger img {
+    width: 220px;
+}
+
+.dimo-landing a figure.chrysler {
+    bottom: -30px;
+}
+
+.dimo-landing a figure.jeep {
+    bottom: -36px;
+}
+
+.dimo-landing a.b-passenger:hover,
+.dimo-landing a.b-commercial:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4c4c4c+0,000000+100 */
+    background: #4c4c4c;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #4c4c4c 0%, #000000 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #4c4c4c 0%, #000000 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #4c4c4c 0%, #000000 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4c4c4c', endColorstr='#000000', GradientType=0);
+    /* IE6-9 */
+}
+
+.dimo-landing a.b-passenger:hover figure.car.b-passenger img,
+.dimo-landing a.b-passenger:hover figure.car.b-commercial img,
+.dimo-landing a.b-commercial:hover figure.car.b-passenger img,
+.dimo-landing a.b-commercial:hover figure.car.b-commercial img {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.dimo-landing a.b-passenger:hover img.b-text,
+.dimo-landing a.b-commercial:hover img.b-text {
+    filter: brightness(500%);
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(brightness=500);
+    filter: progid:DXImageTransform.Microsoft.Alpha(brightness=500);
+}
+
+.dimo-landing a.chrysler:hover {
+    background: #4e7089;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #4e7089 0%, #014f8b 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #4e7089 0%, #014f8b 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #4e7089 0%, #014f8b 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4e7089', endColorstr='#014f8b', GradientType=0);
+    /* IE6-9 */
+}
+
+.dimo-landing a.chrysler:hover figure.car.chrysler img {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.dimo-landing a.jeep:hover {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#899b00+0,435b07+100 */
+    background: #899b00;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #899b00 0%, #435b07 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #899b00 0%, #435b07 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #899b00 0%, #435b07 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#899b00', endColorstr='#435b07', GradientType=0);
+    /* IE6-9 */
+}
+
+.dimo-landing a.jeep:hover img.j-logo {
+    filter: grayscale(500%);
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(grayscale=500);
+    filter: progid:DXImageTransform.Microsoft.Alpha(grayscale=500);
+}
+
+.dimo-landing a.jeep:hover figure.car.jeep img {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.upload-profile-img {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    border: thin solid #d8d8d8;
+    position: relative;
+    border-radius: 100%;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 12px;
+    color: #999;
+}
+
+.upload-profile-img i.fa {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.upload-profile-img:hover {
+    background: #f1f1f1;
+}
+
+.upload-profile-img input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,19 @@
+
+<svg width="26px" height="26px" viewBox="0 0 26 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.06 0.4 25.602 0.4 25.602 26.002 0.06 26.002"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="service-booking-dimo" transform="translate(-38.000000, -360.000000)">
+            <g id="icon" transform="translate(38.000000, 360.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M12.801,0.4 C5.73,0.4 0,6.13 0,13.201 C0,20.267 5.73,26.002 12.801,26.002 C19.867,26.002 25.602,20.267 25.602,13.201 C25.602,6.13 19.867,0.4 12.801,0.4 Z M12.801,3.599 C16.965,3.599 20.484,6.283 21.812,10.002 L3.789,10.002 C5.117,6.283 8.633,3.599 12.801,3.599 Z M12.801,14.798 C11.914,14.798 11.199,14.084 11.199,13.201 C11.199,12.314 11.914,11.599 12.801,11.599 C13.684,11.599 14.398,12.314 14.398,13.201 C14.398,14.084 13.684,14.798 12.801,14.798 Z M3.199,13.201 C7.57,13.201 11.113,17.412 11.188,22.638 C6.664,21.861 3.199,17.939 3.199,13.201 Z M14.414,22.638 C14.488,17.412 18.027,13.201 22.398,13.201 C22.398,17.939 18.938,21.861 14.414,22.638 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
