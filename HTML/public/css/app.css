@@ -16,6 +16,47 @@ img.bosh_logo {
     transform: translateY(40px);
 }
 
+button.btn-dimo {
+    background: #024059;
+    color: #fff;
+    font-weight: bold;
+    height: 44px;
+    font-size: 14px;
+    min-width: 180px;
+    box-shadow: 0px 2px 5px rgba(120, 120, 120, 0.5);
+}
+
+button.btn-dimo:hover {
+    background: #02648b;
+}
+
+button.btn-dimo:active {
+    background: #666666;
+    box-shadow: 0px 2px 5px rgba(120, 120, 120, 1);
+}
+
+.modal-header {
+    background: #f1f1f1;
+    border-bottom: thin solid #d8d8d8;
+}
+
+
+.modal-content > img{
+    width: 140px;
+    margin: 15px auto;
+    display: block;
+}
+
+
+.modal-body {
+    padding: 30px;
+}
+
+.modal-footer button {
+    width: 200px;
+    margin: 0 auto;
+}
+
 #dimo_theme {
     background: #024059;
     min-height: 100vh;
@@ -325,6 +366,7 @@ img.bosh_logo {
     font-weight: bold;
     padding: 10px 30px;
     background: #ece9e9;
+    position: relative;
 }
 
 .form-content h2 label {
@@ -332,6 +374,11 @@ img.bosh_logo {
     padding: 7px 15px;
     border-radius: 4px;
     margin: 0px 0px 0px 15px;
+}
+
+.form-content h2 button.btn-dimo {
+    position: absolute;
+    right: 15px;
 }
 
 .form-element {
@@ -702,8 +749,6 @@ div.checkbox label {
     height: 100%;
     opacity: 0;
 }
-
-
 
 #check_availability .modal-dialog {
     max-width: 680px;

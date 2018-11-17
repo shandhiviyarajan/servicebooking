@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
 <head>
     <meta charset="UTF-8">
-    <title> Service booking History</title>
+    <title> Service booking Details</title>
     <meta property="og:image" content=""/>
     <meta property="og:title" content=""/>
     <meta property="og:url" content=""/>
@@ -73,6 +73,7 @@
                 </div>
             </div>
         </header>
+
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-2 left-nav">
@@ -119,9 +120,14 @@
                             <img class="brand-logo"
                                  src="../public/images/benz-logo.png" alt=""/>
 
-                            Booking history
-                        </h2>
+                            My Vehicles
 
+                            <button class="btn btn-default btn-dimo"
+                                    data-toggle="modal"
+                                    data-target="#add_vehilcles" >
+                                <i class="fa fa-plus"></i> Add vehicle
+                            </button>
+                        </h2>
                         <div class="card shadow p-0 border-0">
                             <div class="card-body">
                                 <div class="booking-history-table">
@@ -133,9 +139,6 @@
                                                 No
                                             </th>
                                             <th>
-                                                Booking #ID
-                                            </th>
-                                            <th>
                                                 Brand
                                             </th>
                                             <th>
@@ -145,14 +148,9 @@
                                                 Vehicle number
                                             </th>
                                             <th>
-                                                Date / Time
+                                                Date created
                                             </th>
-                                            <th>
-                                                Service Category
-                                            </th>
-                                            <th>
-                                                Status
-                                            </th>
+
                                             <th>
                                                 Action
                                             </th>
@@ -161,69 +159,35 @@
                                         </thead>
 
                                         <tbody>
+
                                         <tr>
                                             <td>
                                                 1
                                             </td>
                                             <td>
-                                                #1025
-                                            </td>
-
-                                            <td>
-                                                Lorem ipsum dolor sit amet.
+                                                Mazda
                                             </td>
                                             <td>
-                                                Lorem ipsum dolor sit amet.
+                                                Mazda 6
                                             </td>
                                             <td>
-                                                WP CAM 3356
+                                                BAR 3425
                                             </td>
                                             <td>
-                                                2018-10-09 11:30:00
+                                                2018 / June / 09
                                             </td>
                                             <td>
-                                                Full lube service
-                                            </td>
-                                            <td>
-                                       <span class="badge badge-success">
-                                            Completed
-                                        </span>
-                                            </td>
-                                            <td>
-                                                <a href="#" class="btn btn-outline-secondary btn-sm">View Details</a>
-                                            </td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>
-                                                2
-                                            </td>
-                                            <td>
-                                                #1025
-                                            </td>
-
-                                            <td>
-                                                Lorem ipsum dolor sit amet.
-                                            </td>
-                                            <td>
-                                                Lorem ipsum dolor sit amet.
-                                            </td>
-                                            <td>
-                                                WP CAM 3356
-                                            </td>
-                                            <td>
-                                                2018-10-09 11:30:00
-                                            </td>
-                                            <td>
-                                                Full lube service
-                                            </td>
-                                            <td>
-                                       <span class="badge badge-info">
-                                            Accepted
-                                        </span>
-                                            </td>
-                                            <td>
-                                                <a href="#" class="btn btn-outline-secondary btn-sm">View Details</a>
+                                                <a href="" class="btn btn-link bg-info text-white"
+                                                   data-toggle="tooltip"
+                                                   data-placement="top"
+                                                   title="Edit vehicle">
+                                                    <i class="fa fa-edit"></i>
+                                                </a>
+                                                <a href="#" class="btn btn-link bg-danger text-white" data-toggle="tooltip"
+                                                   data-placement="top"
+                                                   title="Delete vehicle">
+                                                    <i class="fa fa-trash"></i>
+                                                </a>
                                             </td>
                                         </tr>
 
@@ -234,7 +198,55 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="modal" tabindex="-1" role="dialog" id="add_vehilcles">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <img src="../public/images/dimo_logo.jpg" alt="">
+                                <div class="modal-header">
 
+                                    <h5 class="modal-title">Add new vehicle</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form action="">
+                                        <div class="form-element">
+                                            <label for="">Model</label>
+                                            <select name="" id="" class="form-control">
+                                                <option value="-1">Vehilcle model</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-element">
+                                            <label for="">Brand</label>
+                                            <select name="" id="" class="form-control">
+                                                <option value="-1">Vehilcle brand</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-element">
+                                            <label for="">Number</label>
+                                            <input type="text" placeholder="Vehicle number" class="form-control">
+                                        </div>
+
+                                        <div class="form-element">
+                                            <label for="">Registration date</label>
+                                            <input type="date" placeholder="Registration date" class="form-control">
+                                        </div>
+                                        <div class="form-element">
+                                            <label for=""> Mileage</label>
+                                            <input type="text" placeholder="Mileage" class="form-control">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary btn-dimo">
+                                        Register Vehicle
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </div>
