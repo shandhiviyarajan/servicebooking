@@ -811,6 +811,8 @@ div.checkbox label {
 
 }
 
+
+
 #check_availability div.radio-time input[type="radio"] {
     width: 100%;
     position: absolute;
@@ -838,9 +840,11 @@ div.checkbox label {
 
 }
 
-#check_availability div.radio-time:hover label {
+#check_availability div.radio-time:hover label,
+#check_availability div.radio-time.selected label{
     background: #417505;
     color: #fff;
+    cursor:pointer;
 }
 
 #check_availability div.radio-time:active label {
@@ -849,7 +853,9 @@ div.checkbox label {
 }
 
 #check_availability div.radio-time label.not-available, #check_availability div.radio-time label.not-available:hover,
-#check_availability div.radio-time label.not-available:active {
+#check_availability div.radio-time label.not-available:active,
+#check_availability div.radio-time.selected label.not-available
+{
     background: #AAAAAA;
     color: #d3d3d3;
     cursor: not-allowed;

@@ -301,6 +301,12 @@
                     $('[data-toggle="tooltip"]').tooltip()
                 })
                 console.log("Service booking");
+
+                $(".radio-time").on('click', function () {
+                    if (!$(this).find("label").hasClass("not-availabe")) {
+                        $(this).toggleClass("selected");
+                    }
+                })
             }
 
             return ServiceBooking;
