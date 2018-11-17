@@ -1,11 +1,9 @@
 ---
 layout : default.html
-title : Service booking
+title : Profile BOSH
 ---
-
-
 <article id="bosh_theme" class="bosh-bg">
-    <div class="bosh service-booking">
+    <div class="bosh ">
         <header>
             <div class="container-fluid">
                 <div class="row">
@@ -37,7 +35,6 @@ title : Service booking
                 </div>
             </div>
         </header>
-
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-2 left-nav">
@@ -84,95 +81,42 @@ title : Service booking
                             <img class="brand-logo"
                                  src="../public/images/benz-logo.png" alt=""/>
 
-                           Service booking
+                            User Profile - BOSH
                         </h2>
-
                         <form action="!#">
                             <div class="row">
                                 <div class="col-md-6 col-sm-6">
                                     <div class="form-element">
-                                        <label><i class="fa fa-info-circle" aria-hidden="true"></i> Vehicle brand
+                                        <label><i class="fa fa-info-circle" aria-hidden="true"></i>First name
                                         </label>
-                                        <select class="form-control">
-                                            <option value="">Select your vehicle model</option>
-                                            <option value="">A</option>
-                                            <option value="">B</option>
-                                            <option value="">C</option>
-                                        </select>
+                                        <input type="text" placeholder="First name" class="form-control">
                                     </div>
                                     <div class="form-element">
-                                        <label><i class="fa fa-info-circle" aria-hidden="true"></i> Service type</label>
-                                        <select class="form-control">
-                                            <option value="">Service type</option>
-                                            <option value="">A</option>
-                                            <option value="">B</option>
-                                            <option value="">C</option>
-                                        </select>
-
-                                        <a href="#" class="btn btn-link float-right">
-                                            <strong>
-                                                Show more
-                                            </strong>
-                                        </a>
+                                        <label><i class="fa fa-info-circle" aria-hidden="true"></i> Last name
+                                        </label>
+                                        <input type="text" placeholder="Last name" class="form-control">
                                     </div>
-
                                     <div class="form-element">
-                                        <label><i class="fa fa-info-circle" aria-hidden="true"></i> Date </label>
-                                        <input type="date" placeholder="Date" class="form-control">
+                                        <label><i class="fa fa-info-circle" aria-hidden="true"></i>Mobile number
+                                        </label>
+                                        <input type="text" placeholder="Mobile number" class="form-control">
                                     </div>
-
                                     <div class="form-element">
-                                        <div class="row">
-                                            <div class="col-md-10">
-                                                <label for=""><i class="fa fa-info-circle" aria-hidden="true"></i>
-                                                    Service adviser</label>
-                                                <select class="form-control">
-                                                    <option value="">Service adviser</option>
-                                                    <option value="">A</option>
-                                                    <option value="">B</option>
-                                                    <option value="">C</option>
-                                                </select>
-                                            </div>
-                                            <div class="col-md-2 pl-2">
-                                                <label for="">&nbsp;</label>
-                                                <button class="btn btn-default btn-check">
-                                                   <span>
-                                                       Check <br>availability
-                                                       <img src="../public/svg/arrow.svg" alt="">
-                                                   </span>
-                                                </button>
-                                            </div>
+                                        <label><i class="fa fa-info-circle" aria-hidden="true"></i> Customer name
+                                        </label>
+                                        <input type="email" placeholder="Email address" class="form-control">
+                                    </div>
+                                    <div class="form-element">
+                                        <label><i class="fa fa-info-circle" aria-hidden="true"></i> Pickup address
+                                        </label>
+                                        <input type="text" placeholder="Pickup address" class="form-control">
+                                    </div>
+                                    <div class="form-element">
+                                        <div class="checkbox active">
+                                            <input type="checkbox" id="address-same">
+                                            <label for="address-same">Delivery address same as pickup
+                                                address</label>
                                         </div>
-                                    </div>
-
-
-                                    <div class="form-element">
-                                        <label><i class="fa fa-info-circle" aria-hidden="true"></i> Time </label>
-                                        <input type="time" placeholder="Date" class="form-control">
-                                    </div>
-
-
-                                </div>
-                                <div class="col-md-6 col-sm-6">
-
-
-                                    <div class="form-element">
-                                        <label><i class="fa fa-info-circle" aria-hidden="true"></i> Vehicle number
-                                        </label>
-                                        <input type="text" placeholder="Vehicle number" class="form-control">
-                                    </div>
-
-
-                                    <div class="form-element">
-                                        <label><i class="fa fa-info-circle" aria-hidden="true"></i> Vehicle mileage
-                                            (optional)</label>
-                                        <input type="text" placeholder="Vehicle mileage" class="form-control">
-                                    </div>
-
-                                    <div class="form-element">
-                                        <label><i class="fa fa-info-circle" aria-hidden="true"></i> Pick up address
-                                        </label>
-                                        <input type="text" placeholder="Pick up address" class="form-control">
                                     </div>
 
                                     <div class="form-element">
@@ -180,30 +124,54 @@ title : Service booking
                                         </label>
                                         <input type="text" placeholder="Delivery address" class="form-control">
                                     </div>
+                                </div>
+                                <div class="col-md-6 col-sm-6">
 
-                                    <div class="form-element">
-                                        <div class="checkbox active">
-                                            <input type="checkbox" id="address-same">
-                                            <label for="address-same">Delivery address same as pickup address</label>
+                                    <div class="card mb-4 upload-card">
+                                        <div class="card-body">
+                                            <div class="upload-profile-img d-flex ">
+                                                <i class="fa fa-camera" aria-hidden="true"></i>Choose a
+                                                profile image
+                                                <input type="file" title="upload profile picture">
+                                            </div>
                                         </div>
                                     </div>
 
-                                    <div class="form-element">
-                                        <label><i class="fa fa-info-circle" aria-hidden="true"></i> Remarks
-                                        </label>
-                                        <textarea class="form-control" placeholder="Remarks"></textarea>
-                                    </div>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Change password</h5>
+                                            <div class="form-element">
+                                                <label><i class="fa fa-info-circle" aria-hidden="true"></i> New
+                                                    password </label>
+                                                <input type="password" placeholder="New password"
+                                                       class="form-control">
+                                            </div>
+                                            <div class="form-element">
+                                                <label><i class="fa fa-info-circle" aria-hidden="true"></i> Confirm
+                                                    password </label>
+                                                <input type="password" placeholder="Confirm password "
+                                                       class="form-control">
+                                            </div>
 
+                                            <div class="form-element">
+                                                <button class="btn btn-outline-secondary float-right">
+                                                    Update password
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
 
                                 </div>
                             </div>
-                            <div class="row justify-content-center">
-                                <div class="col-md-6">
+                            <div class="row">
+                                <div class="col-md-4"></div>
+                                <div class="col-md-4"></div>
+                                <div class="col-md-4">
                                     <div class="form-element">
                                         <div class="row">
                                             <div class="col-md-6">
                                                 <button type="submit" class="btn btn-default btn-dimo">
-                                                    Submit
+                                                    Save profile
                                                 </button>
                                             </div>
                                             <div class="col-md-6">
@@ -223,5 +191,4 @@ title : Service booking
         </div>
     </div>
 </article>
-
 

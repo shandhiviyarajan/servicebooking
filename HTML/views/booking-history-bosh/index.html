@@ -1,15 +1,15 @@
 ---
 layout : default.html
-title : Service booking Details
+title : Service booking History
 ---
 
-<article id="dimo_theme" class="dimo-bg">
-    <div class="dimo service-booking">
+<article id="bosh_theme" class="bosh-bg">
+    <div class="bosh service-booking">
         <header>
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-2">
-                        <img src="../public/images/dimo_logo.jpg" class="dimo_logo" alt="">
+                        <img src="../public/images/bosh_logo.png" class="bosh_logo" alt="">
                     </div>
 
                     <div class="col-md-8">
@@ -36,7 +36,6 @@ title : Service booking Details
                 </div>
             </div>
         </header>
-
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-2 left-nav">
@@ -83,14 +82,9 @@ title : Service booking Details
                             <img class="brand-logo"
                                  src="../public/images/benz-logo.png" alt=""/>
 
-                            My Vehicles
-
-                            <button class="btn btn-default btn-dimo"
-                                    data-toggle="modal"
-                                    data-target="#add_vehilcles" >
-                                <i class="fa fa-plus"></i> Add vehicle
-                            </button>
+                            Booking history
                         </h2>
+
                         <div class="card shadow p-0 border-0">
                             <div class="card-body">
                                 <div class="booking-history-table">
@@ -102,6 +96,9 @@ title : Service booking Details
                                                 No
                                             </th>
                                             <th>
+                                                Booking #ID
+                                            </th>
+                                            <th>
                                                 Brand
                                             </th>
                                             <th>
@@ -111,9 +108,14 @@ title : Service booking Details
                                                 Vehicle number
                                             </th>
                                             <th>
-                                                Date created
+                                                Date / Time
                                             </th>
-
+                                            <th>
+                                                Service Category
+                                            </th>
+                                            <th>
+                                                Status
+                                            </th>
                                             <th>
                                                 Action
                                             </th>
@@ -122,35 +124,69 @@ title : Service booking Details
                                         </thead>
 
                                         <tbody>
-
                                         <tr>
                                             <td>
                                                 1
                                             </td>
                                             <td>
-                                                Mazda
+                                                #1025
+                                            </td>
+
+                                            <td>
+                                                Lorem ipsum dolor sit amet.
                                             </td>
                                             <td>
-                                                Mazda 6
+                                                Lorem ipsum dolor sit amet.
                                             </td>
                                             <td>
-                                                BAR 3425
+                                                WP CAM 3356
                                             </td>
                                             <td>
-                                                2018 / June / 09
+                                                2018-10-09 11:30:00
                                             </td>
                                             <td>
-                                                <a href="" class="btn btn-link bg-info text-white"
-                                                   data-toggle="tooltip"
-                                                   data-placement="top"
-                                                   title="Edit vehicle">
-                                                    <i class="fa fa-edit"></i>
-                                                </a>
-                                                <a href="#" class="btn btn-link bg-danger text-white" data-toggle="tooltip"
-                                                   data-placement="top"
-                                                   title="Delete vehicle">
-                                                    <i class="fa fa-trash"></i>
-                                                </a>
+                                                Full lube service
+                                            </td>
+                                            <td>
+                                       <span class="badge badge-success">
+                                            Completed
+                                        </span>
+                                            </td>
+                                            <td>
+                                                <a href="#" class="btn btn-outline-secondary btn-sm">View Details</a>
+                                            </td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>
+                                                2
+                                            </td>
+                                            <td>
+                                                #1025
+                                            </td>
+
+                                            <td>
+                                                Lorem ipsum dolor sit amet.
+                                            </td>
+                                            <td>
+                                                Lorem ipsum dolor sit amet.
+                                            </td>
+                                            <td>
+                                                WP CAM 3356
+                                            </td>
+                                            <td>
+                                                2018-10-09 11:30:00
+                                            </td>
+                                            <td>
+                                                Full lube service
+                                            </td>
+                                            <td>
+                                       <span class="badge badge-info">
+                                            Accepted
+                                        </span>
+                                            </td>
+                                            <td>
+                                                <a href="#" class="btn btn-outline-secondary btn-sm">View Details</a>
                                             </td>
                                         </tr>
 
@@ -161,55 +197,7 @@ title : Service booking Details
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="modal" tabindex="-1" role="dialog" id="add_vehilcles">
-                        <div class="modal-dialog" role="document">
-                            <div class="modal-content">
-                                <img src="{{assets}}images/dimo_logo.jpg" alt="">
-                                <div class="modal-header">
 
-                                    <h5 class="modal-title">Add new vehicle</h5>
-                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                        <span aria-hidden="true">&times;</span>
-                                    </button>
-                                </div>
-                                <div class="modal-body">
-                                    <form action="">
-                                        <div class="form-element">
-                                            <label for="">Model</label>
-                                            <select name="" id="" class="form-control">
-                                                <option value="-1">Vehilcle model</option>
-                                            </select>
-                                        </div>
-                                        <div class="form-element">
-                                            <label for="">Brand</label>
-                                            <select name="" id="" class="form-control">
-                                                <option value="-1">Vehilcle brand</option>
-                                            </select>
-                                        </div>
-
-                                        <div class="form-element">
-                                            <label for="">Number</label>
-                                            <input type="text" placeholder="Vehicle number" class="form-control">
-                                        </div>
-
-                                        <div class="form-element">
-                                            <label for="">Registration date</label>
-                                            <input type="date" placeholder="Registration date" class="form-control">
-                                        </div>
-                                        <div class="form-element">
-                                            <label for=""> Mileage</label>
-                                            <input type="text" placeholder="Mileage" class="form-control">
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-default btn-dimo">
-                                        Register Vehicle
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
                     </div>
 
                 </div>
