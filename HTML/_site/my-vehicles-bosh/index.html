@@ -298,6 +298,7 @@
                     $(".left-nav ul").slideToggle(250);
                 });
                 $(".radio-time").on('click', function () {
+                    $(".radio-time").removeClass('selected');
                     if (!$(this).find("label").hasClass("not-availabe")) {
                         $(this).toggleClass("selected");
                     }
