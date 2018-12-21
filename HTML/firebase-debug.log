@@ -1,0 +1,34 @@
+[debug] [2018-12-21T00:35:18.382Z] ----------------------------------------------------------------------
+[debug] [2018-12-21T00:35:18.385Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-12-21T00:35:18.385Z] CLI Version:   6.0.1
+[debug] [2018-12-21T00:35:18.385Z] Platform:      darwin
+[debug] [2018-12-21T00:35:18.385Z] Node Version:  v8.9.1
+[debug] [2018-12-21T00:35:18.386Z] Time:          Fri Dec 21 2018 06:05:18 GMT+0530 (+0530)
+[debug] [2018-12-21T00:35:18.386Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-21T00:35:18.404Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-21T00:35:18.404Z] > authorizing via signed-in user
+[debug] [2018-12-21T00:35:18.404Z] [iam] checking project service-booking-d6ac4 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2018-12-21T00:35:18.408Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/service-booking-d6ac4:testIamPermissions  
+
+[debug] [2018-12-21T00:35:19.899Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-21T00:35:19.901Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/service-booking-d6ac4  
+ 
+[debug] [2018-12-21T00:35:20.405Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'service-booking-d6ac4'...
+[info] 
+[info] i  deploying hosting
+[debug] [2018-12-21T00:35:20.411Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/service-booking-d6ac4/versions  
+
+[debug] [2018-12-21T00:35:22.654Z] <<< HTTP RESPONSE 200
+[info] i  hosting[service-booking-d6ac4]: beginning deploy...
+[info] i  hosting[service-booking-d6ac4]: found 147 files in _site
+[debug] [2018-12-21T00:35:22.733Z] [hosting] hash cache [X3NpdGU] load error: lines is not defined
+[debug] [2018-12-21T00:35:22.980Z] [hosting] hash cache [X3NpdGU] stored for 147 files
+[debug] [2018-12-21T00:35:22.981Z] [hosting][hash queue][FINAL]
+[debug] [2018-12-21T00:35:22.981Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/service-booking-d6ac4/versions/063b9a0244643cf7:populateFiles  
+ <request body omitted>
+[debug] [2018-12-21T00:35:25.524Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-21T00:35:25.528Z] [hosting][populate queue][FINAL]
+[debug] [2018-12-21T00:35:25.528Z] [hosting] uploads queued: 3
