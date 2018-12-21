@@ -955,6 +955,30 @@ div.checkbox label {
         font-size: 16px;
         text-align: Center;
     }
+
+    .booking-history-table {
+        margin: -20px;
+    }
+
+    .table .thead-dark th {
+        font-size: 10px;
+        width: 40px;
+    }
+
+    .form-content h2 button.btn-dimo {
+        position: absolute;
+        right: 15px;
+        width: 100px;
+        min-width: 130px;
+    }
+
+    .table td .btn-link {
+        margin-top: 3px;
+    }
+
+    .table td, .table th {
+        padding: 3px;
+    }
 }
 
 /*# sourceMappingURL=app.css.map */
