@@ -899,6 +899,38 @@ div.checkbox label {
     #dimo_theme.dimo-bg header h2 {
         padding-top: 0px;
     }
+
+    .dimo-landing header {
+        height: auto;
+    }
+
+    .dimo-landing header h2 {
+        font-size: 16px;
+        padding: 15px 0px;
+
+    }
+
+    .dimo-landing p.my-4{
+        margin:10px 0px !important;
+    }
+
+    .dimo-landing a {
+        margin-bottom: 20px !important;
+        transform: scale(.8);
+    }
+
+    .dimo-landing header img.dimo_logo {
+        width: 100px !important;
+    }
+
+    img.dimo_logo, img.bosh_logo {
+        margin: 20px auto 0px auto;
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+    }
 }
 
 /*# sourceMappingURL=app.css.map */
