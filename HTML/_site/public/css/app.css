@@ -878,6 +878,20 @@ div.checkbox label {
     top: 20px;
 }
 
+
+.visible-xs,
+.hidden-xs{
+    display: none !important;
+}
+.hidden-lg {
+    display: none !important;
+}
+.visible-lg{
+    display: block !important;
+}
+
+
+
 @media (max-width: 767px) {
     .left-nav nav ul {
         display: none;
@@ -991,6 +1005,37 @@ div.checkbox label {
 
     .table td, .table th {
         padding: 3px;
+    }
+
+    table.table-mobile > tr:nth-child(odd) td {
+        border-bottom: thin solid #d7d7d7;
+        padding-bottom: 5px;
+    }
+
+    table.mobile-record tr td {
+        padding: 10px;
+    }
+
+    table.mobile-record {
+        width: 100%;
+    }
+
+    table.mobile-record tr td:first-child {
+        background: #000;
+        color: #fff;
+        font-weight: bold;
+        width: 140px;
+    }
+
+    .hidden-lg {
+        display: none !important;
+    }
+    .visible-lg{
+        display: none !important;
+    }
+
+    .visible-xs {
+        display: block !important;
     }
 }
 
