@@ -1,0 +1,23 @@
+[debug] [2018-12-21T00:52:11.716Z] ----------------------------------------------------------------------
+[debug] [2018-12-21T00:52:11.722Z] Command:       /usr/local/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-12-21T00:52:11.722Z] CLI Version:   6.0.1
+[debug] [2018-12-21T00:52:11.722Z] Platform:      darwin
+[debug] [2018-12-21T00:52:11.722Z] Node Version:  v8.9.1
+[debug] [2018-12-21T00:52:11.724Z] Time:          Fri Dec 21 2018 06:22:11 GMT+0530 (+0530)
+[debug] [2018-12-21T00:52:11.724Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-21T00:52:11.739Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-21T00:52:11.740Z] > authorizing via signed-in user
+[debug] [2018-12-21T00:52:11.740Z] [iam] checking project service-booking-d6ac4 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2018-12-21T00:52:11.743Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/service-booking-d6ac4:testIamPermissions  
+
+[debug] [2018-12-21T00:52:13.151Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-21T00:52:13.153Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/service-booking-d6ac4  
+ 
+[debug] [2018-12-21T00:52:13.622Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'service-booking-d6ac4'...
+[info] 
+[info] i  deploying hosting
+[debug] [2018-12-21T00:52:13.627Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/service-booking-d6ac4/versions  
+

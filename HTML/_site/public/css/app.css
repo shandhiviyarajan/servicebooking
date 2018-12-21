@@ -902,6 +902,19 @@ div.checkbox label {
         text-align: center;
     }
 
+    .login-form {
+        padding: 30px 0px;
+    }
+
+    #dimo_theme header img.dimo_logo {
+        width: 100px !important;
+    }
+
+    #dimo_theme header h2 {
+        padding: 10px;
+        font-size: 16px;
+    }
+
     .dimo-landing header {
         height: auto;
     }
