@@ -1,0 +1,219 @@
+---
+layout : default.html
+title : My Vehicles
+---
+
+<article id="dimo_theme" class="dimo-bg">
+    <div class="dimo service-booking">
+        <header>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="../public/images/dimo_logo.jpg" class="dimo_logo" alt="">
+                    </div>
+
+                    <div class="col-md-8">
+                        <h2>
+                            Service booking and online payment portal
+                        </h2>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="dropdown profile-dropdown">
+                            <button class="btn btn-secondary dropdown-toggle"
+                                    type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false">
+                                <img src="../public/images/profile.png" alt="">
+                                Username here
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">My Profile</a>
+                                <a class="dropdown-item" href="#">Log out</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 left-nav">
+
+
+                    <nav>
+                        <ul>
+                            <li class="active">
+                                <a href="#">
+                                    <img src="../public/svg/service-booking.svg" alt=""> <span>
+                                   Service booking
+                                </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="../public/svg/pay-online.svg" alt=""> <span>
+                                    Pay online
+                                </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="../public/svg/booking-history.svg" alt=""> <span>
+                                    Booking history
+                                </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="../public/svg/my-vehicle.svg" alt=""> <span>
+                                    My vehicles
+                                </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                </div>
+                <div class="col-md-10 bg-white">
+
+                    <div class="form-content">
+                        <h2 class="d-flex">
+                            <img class="brand-logo"
+                                 src="../public/images/benz-logo.png" alt=""/>
+
+                            My Vehicles
+
+                            <button class="btn btn-default btn-dimo"
+                                    data-toggle="modal"
+                                    data-target="#add_vehilcles" >
+                                <i class="fa fa-plus"></i> Add vehicle
+                            </button>
+                        </h2>
+                        <div class="card shadow p-0 border-0">
+                            <div class="card-body">
+                                <div class="booking-history-table">
+                                    <table cellpadding="0" cellspacing="0" class="table table-striped table-hover">
+
+                                        <thead class="thead-dark ">
+                                        <tr>
+                                            <th>
+                                                No
+                                            </th>
+                                            <th>
+                                                Brand
+                                            </th>
+                                            <th>
+                                                Model
+                                            </th>
+                                            <th>
+                                                Vehicle number
+                                            </th>
+                                            <th>
+                                                Date created
+                                            </th>
+
+                                            <th>
+                                                Action
+                                            </th>
+
+                                        </tr>
+                                        </thead>
+
+                                        <tbody>
+
+                                        <tr>
+                                            <td>
+                                                1
+                                            </td>
+                                            <td>
+                                                Mazda
+                                            </td>
+                                            <td>
+                                                Mazda 6
+                                            </td>
+                                            <td>
+                                                BAR 3425
+                                            </td>
+                                            <td>
+                                                2018 / June / 09
+                                            </td>
+                                            <td>
+                                                <a href="" class="btn btn-link bg-info text-white"
+                                                   data-toggle="tooltip"
+                                                   data-placement="top"
+                                                   title="Edit vehicle">
+                                                    <i class="fa fa-edit"></i>
+                                                </a>
+                                                <a href="#" class="btn btn-link bg-danger text-white" data-toggle="tooltip"
+                                                   data-placement="top"
+                                                   title="Delete vehicle">
+                                                    <i class="fa fa-trash"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+
+
+                                        </tbody>
+
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" tabindex="-1" role="dialog" id="add_vehilcles">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <img src="{{assets}}images/dimo_logo.jpg" alt="">
+                                <div class="modal-header">
+
+                                    <h5 class="modal-title">Add new vehicle</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form action="">
+                                        <div class="form-element">
+                                            <label for="">Model</label>
+                                            <select name="" id="" class="form-control">
+                                                <option value="-1">Vehilcle model</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-element">
+                                            <label for="">Brand</label>
+                                            <select name="" id="" class="form-control">
+                                                <option value="-1">Vehilcle brand</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-element">
+                                            <label for="">Number</label>
+                                            <input type="text" placeholder="Vehicle number" class="form-control">
+                                        </div>
+
+                                        <div class="form-element">
+                                            <label for="">Registration date</label>
+                                            <input type="date" placeholder="Registration date" class="form-control">
+                                        </div>
+                                        <div class="form-element">
+                                            <label for=""> Mileage</label>
+                                            <input type="text" placeholder="Mileage" class="form-control">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default btn-dimo">
+                                        Register Vehicle
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</article>

@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Service booking</title>
+    <meta property="og:image" content=""/>
+    <meta property="og:title" content=""/>
+    <meta property="og:url" content=""/>
+    <meta name="description" content=""/>
+    <meta name="keywords" content=""/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no shrink-to-fit=no">
+    <meta name="google-site-verification" content="AIzaSyD6yRFelNfJlGThrXJ70o1Rpvp18DaSmyA"/>
+    <link rel="icon" type="image/png" href="../public/favicon.png"/>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css"
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="../public/libs/swipebox/css/swipebox.min.css"/>
+    <link rel="stylesheet" href="../public/libs/select-2/css/select2.min.css"/>
+    <link rel="stylesheet" href="../public/libs/bootstrap-datepicker/css/bootstrap.datepicker.min.css"/>
+    <link rel="stylesheet" href="../public/libs/flick/flick.css"/>
+    <link rel="stylesheet" href="../public/libs/daterangepicker/daterangepicker.css"/>
+    <!-- custom-css -->
+    <link rel="stylesheet" href="../public/css/app.css"/>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="../public/libs/bootstrap-4/polyfill.min.js"></script>
+    <!-- jquery-->
+    <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+    <script type="text/javascript"
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANIg-GgobIKa95MgdD4_WwreBVpregN6c&libraries=places&v=3.31"></script>
+</head>
+
+<body>
+<main>
+    
+
+
+<article id="bosh_theme" class="bosh-bg">
+    <div class="bosh service-booking">
+        <header>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="../public/images/bosh_logo.png" class="bosh_logo" alt="">
+                    </div>
+
+                    <div class="col-md-8">
+                        <h2>
+                            Service booking and online payment portal
+                        </h2>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="dropdown profile-dropdown">
+                            <button class="btn btn-secondary dropdown-toggle"
+                                    type="button" id="dropdownMenuButton"
+                                    data-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false">
+                                <img src="../public/images/profile.png" alt="">
+                                Username here
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">My Profile</a>
+                                <a class="dropdown-item" href="#">Log out</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-2 left-nav">
+                    <nav>
+                        <ul>
+                            <li class="active">
+                                <a href="#">
+                                    <img src="../public/svg/service-booking.svg" alt=""> <span>
+                                    Service booking
+                                </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="../public/svg/pay-online.svg" alt=""> <span>
+                                    Pay online
+                                </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="../public/svg/booking-history.svg" alt=""> <span>
+                                    Booking history
+                                </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="../public/svg/my-vehicle.svg" alt=""> <span>
+                                    My vehicles
+                                </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="col-md-10 bg-white">
+                    <div class="form-content">
+                        <h2 class="d-flex">
+                            <img class="brand-logo"
+                                 src="../public/images/benz-logo.png" alt=""/>
+
+                            Service inquiry booking
+                        </h2>
+
+                        <form action="!#">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-6">
+                                    <h4>
+                                        Step 01
+                                    </h4>
+                                    <div class="form-element">
+                                        <label><i class="fa fa-info-circle" aria-hidden="true"></i> Vehicle brand
+                                        </label>
+                                        <select class="form-control">
+                                            <option value="">Select your vehicle model</option>
+                                            <option value="">A</option>
+                                            <option value="">B</option>
+                                            <option value="">C</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-element">
+                                        <label><i class="fa fa-info-circle" aria-hidden="true"></i> Service
+                                            type</label>
+                                        <select class="form-control">
+                                            <option value="">Service type</option>
+                                            <option value="">A</option>
+                                            <option value="">B</option>
+                                            <option value="">C</option>
+                                        </select>
+
+                                        <a href="#" class="btn btn-link float-right">
+                                            <strong>
+                                                Show more
+                                            </strong>
+                                        </a>
+                                    </div>
+
+                                    <div class="form-element">
+                                        <label><i class="fa fa-info-circle" aria-hidden="true"></i> Date </label>
+                                        <input type="date" placeholder="Date" class="form-control">
+                                    </div>
+
+
+                                    <div class="form-element">
+                                        <div class="row">
+                                            <div class="col-md-10">
+                                                <label for=""><i class="fa fa-info-circle" aria-hidden="true"></i>
+                                                    Service adviser</label>
+                                                <select class="form-control">
+                                                    <option value="">Service adviser</option>
+                                                    <option value="">A</option>
+                                                    <option value="">B</option>
+                                                    <option value="">C</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-2 pl-2">
+                                                <label>&nbsp;</label>
+                                                <a href="#" type="button"
+                                                   class="btn btn-default btn-check"
+                                                   data-toggle="modal"
+                                                   data-target="#check_availability">
+                                                   <span>
+                                                       Check <br>availability
+
+                                                   </span>
+                                                </a>
+
+                                                <div class="modal" id="check_availability" tabindex="-1"
+                                                     role="dialog">
+                                                    <div class="modal-dialog" role="document">
+                                                        <div class="modal-content">
+                                                            <div class="modal-header">
+                                                                <h5 class="modal-title">Service advisor schedule</h5>
+                                                                <button type="button" class="close"
+                                                                        data-dismiss="modal" aria-label="Close">
+                                                                    <span aria-hidden="true">&times;</span>
+                                                                </button>
+                                                            </div>
+                                                            <div class="modal-body">
+
+
+                                                                <table class="table table-striped">
+                                                                    <thead>
+                                                                    <tr>
+                                                                        <th>
+                                                                            <figure>
+                                                                                <img src="../public/images/u1.jpg"
+                                                                                     alt="">
+                                                                                <p>
+                                                                                    Umesh
+                                                                                </p>
+                                                                            </figure>
+                                                                        </th>
+                                                                        <th>
+                                                                            <figure>
+                                                                                <img src="../public/images/u3.jpg"
+                                                                                     alt="">
+                                                                                <p>
+                                                                                    Katozkai
+                                                                                </p>
+                                                                            </figure>
+                                                                        </th>
+                                                                        <th>
+
+                                                                            <figure>
+                                                                                <img src="../public/images/u2.jpg"
+                                                                                     alt="">
+                                                                                <p>
+                                                                                    Anna
+                                                                                </p>
+                                                                            </figure>
+                                                                        </th>
+                                                                        <th>
+                                                                            <figure>
+                                                                                <img src="../public/images/u4.jpg"
+                                                                                     alt="">
+                                                                                <p>
+                                                                                    Amber
+                                                                                </p>
+                                                                            </figure>
+                                                                        </th>
+                                                                        <th>
+                                                                            <figure>
+                                                                                <img src="../public/images/u5.jpg"
+                                                                                     alt="">
+                                                                                <p>
+                                                                                    John
+                                                                                </p>
+                                                                            </figure>
+
+                                                                        </th>
+                                                                    </tr>
+                                                                    </thead>
+                                                                    <tr>
+                                                                        <td>
+
+                                                                            <div class="form-element d-flex">
+                                                                                <label for="u1">8:30 PM</label>
+                                                                                <input id="u1" type="radio"
+                                                                                       name="umesh">
+                                                                            </div>
+
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+
+                                                            </div>
+                                                            <div class="modal-footer p-0">
+                                                                <div class="row">
+                                                                    <div class="col-sm-3">
+                                                                        <button type="button"
+                                                                                class="btn btn-primary btn-submit">
+                                                                            Confirm
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="form-element">
+                                        <label><i class="fa fa-info-circle" aria-hidden="true"></i> Time </label>
+                                        <input type="time" placeholder="Date" class="form-control">
+                                    </div>
+
+
+                                </div>
+                                <div class="col-md-6 col-sm-6">
+                                    <h4>
+                                        Step 02
+                                    </h4>
+
+                                    <div class="form-element">
+                                        <label><i class="fa fa-info-circle" aria-hidden="true"></i> Vehicle number
+                                        </label>
+                                        <input type="text" placeholder="Vehicle number" class="form-control">
+                                    </div>
+
+
+                                    <div class="form-element">
+                                        <label><i class="fa fa-info-circle" aria-hidden="true"></i> Vehicle mileage
+                                            (optional)</label>
+                                        <input type="text" placeholder="Vehicle mileage" class="form-control">
+                                    </div>
+
+                                    <div class="form-element">
+                                        <label><i class="fa fa-info-circle" aria-hidden="true"></i> Pick up address
+                                        </label>
+                                        <input type="text" placeholder="Pick up address" class="form-control">
+                                    </div>
+
+                                    <div class="form-element">
+                                        <label><i class="fa fa-info-circle" aria-hidden="true"></i> Delivery address
+                                        </label>
+                                        <input type="text" placeholder="Delivery address" class="form-control">
+                                    </div>
+
+                                    <div class="form-element">
+                                        <div class="checkbox active">
+                                            <input type="checkbox" id="address-same">
+                                            <label for="address-same">Delivery address same as pickup
+                                                address</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="form-element">
+                                        <label><i class="fa fa-info-circle" aria-hidden="true"></i> Remarks
+                                        </label>
+                                        <textarea class="form-control" placeholder="Remarks"></textarea>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                            <div class="row justify-content-center">
+                                <div class="col-md-4"></div>
+                                <div class="col-md-4"></div>
+                                <div class="col-md-4">
+                                    <div class="form-element">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <button type="submit" class="btn btn-default btn-dimo">
+                                                    Submit
+                                                </button>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <button type="reset" class="btn btn-default btn-clear">
+                                                    Clear
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+
+
+
+
+
+
+
+    <footer>
+
+
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" type="text/javascript"></script>
+<!-- popper js // bootstrap drop down required popper js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<!-- bootstrap -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<!-- momentjs-->
+<script type="text/javascript" src="../public/libs/daterangepicker/moment.min.js"></script>
+<!-- date range picker-->
+<script type="text/javascript" src="../public/libs/daterangepicker/daterangepicker.js"></script>
+<!-- select2-->
+<script src="../public/libs/select-2/select2.full.min.js"></script>
+
+<!--sombal js-->
+<script type="text/javascript" src="../public/libs/sombal.js"></script>
+
+<!-- google maps -->
+
+<script type="text/javascript">
+    (function (window, $) {
+        'use strict';
+        ServiceBooking = (function ($) {
+            function ServiceBooking() {
+                return {
+                    init: function () {
+                        _load();
+                    }
+                };
+            }
+
+            function _load() {
+                $(function () {
+                    $('[data-toggle="tooltip"]').tooltip()
+                })
+                console.log("Service booking");
+
+                $("#mobile_menu_trigger").on('click', function () {
+                    $(".left-nav ul").slideToggle(250);
+                });
+                $(".radio-time").on('click', function () {
+                    $(".radio-time").removeClass('selected');
+                    if (!$(this).find("label").hasClass("not-availabe")) {
+                        $(this).toggleClass("selected");
+                    }
+                })
+            }
+
+            return ServiceBooking;
+        })(jQuery);
+        var ServiceBooking = new ServiceBooking();
+        ServiceBooking.init();
+    })(window, jQuery);
+</script>
+
+
+</main>
+</body>
+</html>
+
