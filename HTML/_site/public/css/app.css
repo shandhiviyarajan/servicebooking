@@ -370,7 +370,7 @@ button.btn-dimo:active {
 }
 
 .form-content {
-    height: 100vh;
+    min-height: 100vh;
     margin: 0px -15px 0px -15px;
 }
 
@@ -405,7 +405,7 @@ button.btn-dimo:active {
 }
 
 .form-element {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .form-element .btn-check {
@@ -456,7 +456,7 @@ button.btn-dimo:active {
 .form-element select {
     background: #f8f8f8;
     border: thin solid rgba(0, 80, 100, 0.3);
-    height: 44px;
+    height: 36px;
     font-size: 18px;
     color: #000;
     border-radius: 4px;
