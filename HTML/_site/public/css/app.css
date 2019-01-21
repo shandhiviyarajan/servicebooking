@@ -634,15 +634,26 @@ div.checkbox label {
 .dimo-landing a figure.b-commercial p {
     margin-top: 15px;
     font-weight: bold;
+    opacity: 0;
+}
+
+.dimo-landing a figure.b-commercial:hover p {
+    opacity: 1;
 }
 
 .dimo-landing a figure.b-passenger {
     bottom: -90px;
 }
 
+
+
 .dimo-landing a figure.b-passenger p {
     margin-top: 15px;
-    font-weight: bold;
+    font-weight: bold; opacity: 0;
+}
+
+.dimo-landing a figure.b-passenger:hover p{
+    opacity: 1;
 }
 
 .dimo-landing a figure.b-passenger img {
@@ -925,6 +936,7 @@ footer {
 
 footer p {
     color: #fff;
+    margin: 0px;
 
 }
 
