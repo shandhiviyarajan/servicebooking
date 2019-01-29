@@ -428,7 +428,11 @@
                     if (!$(this).find("label").hasClass("not-availabe")) {
                         $(this).toggleClass("selected");
                     }
-                })
+                });
+
+                $("div.checkbox, div.checkbox label").click(function(){
+                    $("div.checkbox").toggleClass("active");
+                });
             }
 
             return ServiceBooking;

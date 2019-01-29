@@ -58,7 +58,6 @@
                     <div class="col-md-3 ">
                         <img class="tech_logo" src="../public/images/dimo_technology_logo.png" alt="">
                     </div>
-
                 </div>
             </div>
         </header>
@@ -229,7 +228,11 @@
                     if (!$(this).find("label").hasClass("not-availabe")) {
                         $(this).toggleClass("selected");
                     }
-                })
+                });
+
+                $("div.checkbox, div.checkbox label").click(function(){
+                    $("div.checkbox").toggleClass("active");
+                });
             }
 
             return ServiceBooking;
