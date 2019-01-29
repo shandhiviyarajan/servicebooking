@@ -84,9 +84,14 @@ button.btn-dimo:active {
 
 #dimo_theme header {
     /*background: #004D6C;*/
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0.15);
     height: 100px;
     border-bottom: thin solid #d8d8d8;
+}
+
+#dimo_theme header .dimo_logo_wrapper {
+    max-width: 340px;
+    /*border-right: thin solid #d8d8d8;*/
 }
 
 #dimo_theme header img.tech_logo {
@@ -96,7 +101,7 @@ button.btn-dimo:active {
 }
 
 #dimo_theme header h2 {
-    color: #000;
+    color: #fff;
     font-size: 24px;
     padding-top: 35px;
     font-weight: bold;
@@ -124,26 +129,34 @@ button.btn-dimo:active {
 
 }
 
-
 .dimo-landing {
     min-height: 500px;
 }
 
 .dimo-landing header {
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(255, 255, 255, 0.5);
     min-height: 100px;
+    border-bottom: thin solid #d8d8d8;
 }
 
 .dimo-landing header h2 {
     font-weight: bold;
-    color: #fff;
+    color: #000;
+    text-align:center;
     font-size: 24px;
     padding-top: 35px;
     letter-spacing: 0px !important;
 }
 
+.dimo-landing header img.tech_logo {
+    width: 85px;
+    margin: 15px 0px;
+    float: right;
+}
+
 .dimo-landing header img.dimo_logo {
-    width: 100px !important;
+    width: 175px !important;
+    margin: 15px 0px;
 }
 
 .bosh-landing {
@@ -193,7 +206,8 @@ button.btn-dimo:active {
     font-weight: bold;
     color: #fff;
     font-size: 24px;
-    padding-top: 60px;
+    padding-top: 35px;
+    text-align:center;
 }
 
 #bosh_theme {
