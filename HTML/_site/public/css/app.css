@@ -951,10 +951,13 @@ div.checkbox label {
 }
 
 footer {
-    padding: 15px 0px;
+    padding: 10px 0px;
     background: #235E7E;
-    position: relative;
     height: auto;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    z-index: 1000;
 }
 
 footer p {
@@ -1119,6 +1122,16 @@ footer a:hover {
 
     .visible-xs {
         display: block !important;
+    }
+
+    footer {
+        padding: 10px 0px;
+        background: #235E7E;
+        height: auto;
+        position: relative;
+        width: 100%;
+        bottom: 0px;
+        z-index: 1000;
     }
 }
 
