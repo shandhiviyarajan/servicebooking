@@ -1,3 +1,25 @@
+/** Proxima Nova **/
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.eot');
+    src: url('../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff2') format('woff2'),
+    url('../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff') format('woff'),
+    url('../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf') format('truetype'),
+    url('../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#proxima_nova_altregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Proxima Nova';
+}
+
+input, button, a, table, tr, td, th, span, div, p, h1, h2, h3, h4, h5, h6, label, ul, li {
+    font-family: 'Proxima Nova';
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -5,7 +27,6 @@
     -moz-osx-font-smoothing: antialiased;
 }
 
-img.dimo_logo,
 img.bosh_logo {
     display: block;
     margin: 0 auto;
@@ -56,25 +77,41 @@ button.btn-dimo:active {
 }
 
 #dimo_theme {
-    background: #024059;
+    background: #fff;
     min-height: 100vh;
     width: 100%;
 }
 
 #dimo_theme header {
-    background: #004D6C;
+    /*background: #004D6C;*/
+    background: rgba(255, 255, 255, 0.15);
     height: 100px;
+    border-bottom: thin solid #d8d8d8;
+}
+
+#dimo_theme header .dimo_logo_wrapper {
+    max-width: 340px;
+    /*border-right: thin solid #d8d8d8;*/
+}
+
+#dimo_theme header img.tech_logo {
+    width: 84px;
+    margin: 15px 0px;
+    float: right;
 }
 
 #dimo_theme header h2 {
     color: #fff;
     font-size: 24px;
-    padding-top: 60px;
+    padding-top: 35px;
     font-weight: bold;
+    letter-spacing: 0px;
+    text-align: left;
 }
 
 #dimo_theme header img.dimo_logo {
-    width: 200px !important;
+    width: 175px !important;
+    margin: 15px 0px;
 }
 
 #dimo_theme.dimo-bg {
@@ -83,22 +120,13 @@ button.btn-dimo:active {
 }
 
 #dimo_theme.dimo-bg header {
-    background: transparent;
+    background: rgba(255, 255, 255, 0.15);
     height: auto;
 }
 
 #dimo_theme.dimo-bg header h2 {
-    padding-top: 44px;
-}
+    padding-top: 35px;
 
-#dimo_theme.dimo-bg header img.dimo_logo {
-    margin: 15px auto;
-    -webkit-transform: translate(0px);
-    -moz-transform: translate(0px);
-    -ms-transform: translate(0px);
-    -o-transform: translate(0px);
-    transform: translate(0px);
-    width: 200px !important;
 }
 
 .dimo-landing {
@@ -106,19 +134,29 @@ button.btn-dimo:active {
 }
 
 .dimo-landing header {
-    background: #004D6C;
-    height: 100px;
+    background: rgba(255, 255, 255, 0.5);
+    min-height: 100px;
+    border-bottom: thin solid #d8d8d8;
 }
 
 .dimo-landing header h2 {
     font-weight: bold;
-    color: #fff;
+    color: #000;
+    text-align:center;
     font-size: 24px;
-    padding-top: 60px;
+    padding-top: 35px;
+    letter-spacing: 0px !important;
+}
+
+.dimo-landing header img.tech_logo {
+    width: 85px;
+    margin: 15px 0px;
+    float: right;
 }
 
 .dimo-landing header img.dimo_logo {
-    width: 200px !important;
+    width: 175px !important;
+    margin: 15px 0px;
 }
 
 .bosh-landing {
@@ -168,7 +206,8 @@ button.btn-dimo:active {
     font-weight: bold;
     color: #fff;
     font-size: 24px;
-    padding-top: 60px;
+    padding-top: 35px;
+    text-align:center;
 }
 
 #bosh_theme {
@@ -256,7 +295,17 @@ button.btn-dimo:active {
 }
 
 .login-form {
-    padding: 100px 0px;
+    padding: 30px 0px;
+}
+
+.login-form > img {
+    margin: 0 auto;
+    display: block;
+    -webkit-transform: translateY(0px) !important;
+    -moz-transform: translateY(0px) !important;
+    -ms-transform: translateY(0px) !important;
+    -o-transform: translateY(0px) !important;
+    transform: translateY(0px) !important;
 }
 
 .login-form .btn-facebook,
@@ -301,7 +350,7 @@ button.btn-dimo:active {
 
 .login-form .or-divider p {
     text-align: center;
-    background: #024059;
+    background: #fff;
     width: 44px;
     margin: 0 auto;
     display: block;
@@ -331,13 +380,13 @@ button.btn-dimo:active {
 }
 
 .login-form h2 {
-    color: #fff;
+    color: #000;
     font-size: 24px;
     margin: 0px 0px 15px 0px;
 }
 
 .form-content {
-    height: 100vh;
+    min-height: 100vh;
     margin: 0px -15px 0px -15px;
 }
 
@@ -372,7 +421,7 @@ button.btn-dimo:active {
 }
 
 .form-element {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .form-element .btn-check {
@@ -423,7 +472,7 @@ button.btn-dimo:active {
 .form-element select {
     background: #f8f8f8;
     border: thin solid rgba(0, 80, 100, 0.3);
-    height: 44px;
+    height: 36px;
     font-size: 18px;
     color: #000;
     border-radius: 4px;
@@ -611,6 +660,11 @@ div.checkbox label {
 .dimo-landing a figure.b-commercial p {
     margin-top: 15px;
     font-weight: bold;
+    opacity: 0;
+}
+
+.dimo-landing a figure.b-commercial:hover p {
+    opacity: 1;
 }
 
 .dimo-landing a figure.b-passenger {
@@ -620,6 +674,11 @@ div.checkbox label {
 .dimo-landing a figure.b-passenger p {
     margin-top: 15px;
     font-weight: bold;
+    opacity: 0;
+}
+
+.dimo-landing a figure.b-passenger:hover p {
+    opacity: 1;
 }
 
 .dimo-landing a figure.b-passenger img {
@@ -878,27 +937,53 @@ div.checkbox label {
     top: 20px;
 }
 
-
 .visible-xs,
-.hidden-xs{
+.hidden-xs {
     display: none !important;
 }
+
 .hidden-lg {
     display: none !important;
 }
-.visible-lg{
+
+.visible-lg {
     display: block !important;
 }
 
+footer {
+    padding: 10px 0px;
+    background: #235E7E;
+    height: auto;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    z-index: 1000;
+}
 
+footer p {
+    color: #fff;
+    margin: 0px;
+}
 
-@media (max-width: 767px) {
+footer a {
+    color: #deece6;
+}
+
+footer a:hover {
+    color: #fff;
+}
+
+@media all and (max-width: 767px) {
     .left-nav nav ul {
         display: none;
     }
 
     #mobile_menu_trigger {
         display: block;
+    }
+
+    #dimo_theme header {
+        height: auto;
     }
 
     #dimo_theme.dimo-bg header img.dimo_logo {
@@ -994,7 +1079,7 @@ div.checkbox label {
 
     .form-content h2 button.btn-dimo {
         position: absolute;
-        right: 15px;
+        right: 45px;
         width: 100px;
         min-width: 130px;
     }
@@ -1030,12 +1115,23 @@ div.checkbox label {
     .hidden-lg {
         display: none !important;
     }
-    .visible-lg{
+
+    .visible-lg {
         display: none !important;
     }
 
     .visible-xs {
         display: block !important;
+    }
+
+    footer {
+        padding: 10px 0px;
+        background: #235E7E;
+        height: auto;
+        position: relative;
+        width: 100%;
+        bottom: 0px;
+        z-index: 1000;
     }
 }
 

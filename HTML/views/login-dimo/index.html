@@ -30,96 +30,100 @@
     <![endif]-->
     <script src="../public/libs/bootstrap-4/polyfill.min.js"></script>
     <!-- jquery-->
-    <script  type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!--<script type="text/javascript"-->
-            <!--src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANIg-GgobIKa95MgdD4_WwreBVpregN6c&libraries=places&v=3.31"></script>-->
+    <!--src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANIg-GgobIKa95MgdD4_WwreBVpregN6c&libraries=places&v=3.31"></script>-->
 
 </head>
 
 <body>
 <main>
-    
 
 
-<article id="dimo_theme">
-    <header>
-        <div class="container">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img  class="dimo_logo" src="../public/images/dimo_logo.jpg" alt="">
-                        </div>
-
-                        <div class="col-md-9">
-                            <h2>
-                                Service booking and online payment portal
-                            </h2>
-                        </div>
+    <article id="dimo_theme">
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 dimo_logo_wrapper">
+                        <img class="dimo_logo"
+                             src="../public/images/dimo_logo_old.jpg" alt="">
                     </div>
-        </div>
-    </header>
-
-    <div class="login-form">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-6 ">
-                    <form action="">
+                    <div class="col-md-6">
                         <h2>
-                            Sign in - DIMO
+                            Service booking and online payment portal
                         </h2>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <a href="#" class="btn btn-default btn-facebook d-block">
-                                    <i class="fa fa-facebook"></i> Facebook
-                                </a>
-                            </div>
-                            <div class="col-md-6">
-                                <a href="#" class="btn btn-default btn-google d-block">
-                                   <i class="fa fa-google"></i> Google
-                                </a>
-                            </div>
+                    </div>
+                    <div class="col-md-3 ">
+                        <img class="tech_logo" src="{{assets}}images/dimo_technology_logo.png" alt="">
+                    </div>
 
-                            <div class="col-md-12">
-                                <div class="or-divider">
-                                    <p>
-                                        OR
-                                    </p>
+                </div>
+            </div>
+        </header>
+
+        <div class="login-form">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 ">
+
+
+                        <form action="">
+                            <h2>
+                                Sign in - DIMO
+                            </h2>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a href="#" class="btn btn-default btn-facebook d-block">
+                                        <i class="fa fa-facebook"></i> Facebook
+                                    </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="#" class="btn btn-default btn-google d-block">
+                                        <i class="fa fa-google"></i> Google
+                                    </a>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="or-divider">
+                                        <p>
+                                            OR
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="form-element ">
-                            <input type="text"
-                                   class="form-control"
-                                   placeholder="Username">
-                        </div>
-                        <div class="form-element ">
-                            <a href="#" class="btn btn-link text-right d-block">Forgot password ?</a>
-                            <input type="text"
-                                   class="form-control"
-                                   placeholder="Password">
-                        </div>
-                        <div class="form-element">
-                            <input type="checkbox" id="keep_me">
-                            <label for="keep_me" class="text-white">Keep me logged in</label>
-                        </div>
-                        <div class="form-element">
-                            <button class="btn btn-primary btn-submit d-block">
-                                Login
-                            </button>
-                        </div>
+                            <div class="form-element ">
+                                <input type="text"
+                                       class="form-control"
+                                       placeholder="Username">
+                            </div>
+                            <div class="form-element ">
+                                <a href="#" class="btn btn-link text-right d-block">Forgot password ?</a>
+                                <input type="text"
+                                       class="form-control"
+                                       placeholder="Password">
+                            </div>
+                            <div class="form-element">
+                                <input type="checkbox" id="keep_me">
+                                <label for="keep_me" class="text-white">Keep me logged in</label>
+                            </div>
+                            <div class="form-element">
+                                <button class="btn btn-primary btn-submit d-block">
+                                    Login
+                                </button>
+                            </div>
 
-                        <div class="form-element">
-                            <p class="text-center">
-                                Not a member ? <a href="#" class="btn btn-link">Create an account</a>
-                            </p>
-                        </div>
-                    </form>
+                            <div class="form-element">
+                                <p class="text-center">
+                                    Not a member ? <a href="#" class="btn btn-link">Create an account</a>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</article>
+    </article>
 </main>
-
 
 
 <!-- popper js // bootstrap drop down required popper js -->
@@ -234,6 +238,7 @@
 
                 var start = moment().subtract(0, 'days');
                 var end = moment();
+
                 //set variables according to the language
 
                 function cb(start, end) {
@@ -343,7 +348,6 @@
         BrusselslifeFE.init();
     })(window, jQuery);
 </script>
-
 
 
 </body>
