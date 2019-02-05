@@ -1022,6 +1022,19 @@ footer a:hover {
     #dimo_theme.dimo-bg header h2 {
         padding-top: 20px;
     }
+
+    .dimo-landing a {
+        width: auto;
+        height: 200px;
+    }
+
+    .dimo-landing a img.c-logo {
+        width: 100px;
+    }
+
+    .dimo-landing a figure.car img {
+        width: 120px;
+    }
 }
 
 @media all and (max-width: 767px) {
