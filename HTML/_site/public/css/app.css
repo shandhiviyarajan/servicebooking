@@ -99,8 +99,6 @@ button.btn-dimo:active {
     float: right;
 }
 
-
-
 #dimo_theme header h2 {
     color: #fff;
     font-size: 24px;
@@ -126,6 +124,8 @@ button.btn-dimo:active {
     background-size: cover;
 }
 
+
+
 #dimo_theme.dimo-bg header {
     background: rgba(255, 255, 255, 0.15);
     height: auto;
@@ -135,8 +135,9 @@ button.btn-dimo:active {
     padding-top: 35px;
 
 }
-#dimo_theme .header_logo_wrapper{
-    display:flex;
+
+#dimo_theme .header_logo_wrapper {
+    display: flex;
     justify-content: space-between;
 }
 
@@ -566,6 +567,14 @@ div.checkbox label {
     cursor: pointer;
 }
 
+
+.form-element .btn_select_vehicle {
+    width: 180px;
+    float: right;
+    margin: 15px 0px;
+
+}
+
 .profile-dropdown {
     float: right;
     margin-top: 36px;
@@ -992,6 +1001,10 @@ footer a:hover {
     color: #fff;
 }
 
+.bg-transparent-50{
+    background: rgba(255,255,255,0.5) !important;
+}
+
 @media all and (max-width: 767px) {
     .left-nav nav ul {
         display: none;
@@ -1158,6 +1171,7 @@ footer a:hover {
         width: 60px !important;
         /*border-right: thin solid #d8d8d8;*/
     }
+
     #dimo_theme header .dimo_logo_wrapper img.tech_logo {
         width: 60px;
         /*border-right: thin solid #d8d8d8;*/
