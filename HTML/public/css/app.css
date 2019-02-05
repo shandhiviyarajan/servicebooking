@@ -90,8 +90,7 @@ button.btn-dimo:active {
 }
 
 #dimo_theme header .dimo_logo_wrapper {
-    max-width: 340px;
-    /*border-right: thin solid #d8d8d8;*/
+    /* border-right: thin solid #d8d8d8;*/
 }
 
 #dimo_theme header img.tech_logo {
@@ -99,6 +98,8 @@ button.btn-dimo:active {
     margin: 15px 0px;
     float: right;
 }
+
+
 
 #dimo_theme header h2 {
     color: #fff;
@@ -112,6 +113,12 @@ button.btn-dimo:active {
 #dimo_theme header img.dimo_logo {
     width: 175px !important;
     margin: 15px 0px;
+}
+
+#dimo_theme header img.logo-white {
+    -webkit-filter: brightness(2000%);
+    filter: brightness(2000%);
+
 }
 
 #dimo_theme.dimo-bg {
@@ -128,6 +135,10 @@ button.btn-dimo:active {
     padding-top: 35px;
 
 }
+#dimo_theme .header_logo_wrapper{
+    display:flex;
+    justify-content: space-between;
+}
 
 .dimo-landing {
     min-height: 500px;
@@ -142,7 +153,7 @@ button.btn-dimo:active {
 .dimo-landing header h2 {
     font-weight: bold;
     color: #000;
-    text-align:center;
+    text-align: center;
     font-size: 24px;
     padding-top: 35px;
     letter-spacing: 0px !important;
@@ -207,7 +218,7 @@ button.btn-dimo:active {
     color: #fff;
     font-size: 24px;
     padding-top: 35px;
-    text-align:center;
+    text-align: center;
 }
 
 #bosh_theme {
@@ -925,6 +936,14 @@ div.checkbox label {
 
 }
 
+table.service-booking-info td p {
+    margin: 0px;
+}
+
+table.service-booking-info tr td:last-child p {
+    font-weight: bold;
+}
+
 #mobile_menu_trigger {
     display: none;
     color: #000;
@@ -1039,6 +1058,7 @@ footer a:hover {
 
     .dimo-landing header img.dimo_logo {
         width: 100px !important;
+        margin: 15px 15px;
     }
 
     .form-content h2 {
@@ -1132,6 +1152,15 @@ footer a:hover {
         width: 100%;
         bottom: 0px;
         z-index: 1000;
+    }
+
+    .dimo-landing header .dimo_logo_wrapper img.tech_logo {
+        width: 60px !important;
+        /*border-right: thin solid #d8d8d8;*/
+    }
+    #dimo_theme header .dimo_logo_wrapper img.tech_logo {
+        width: 60px;
+        /*border-right: thin solid #d8d8d8;*/
     }
 }
 
