@@ -972,7 +972,7 @@ table.service-booking-info tr td:last-child p {
 }
 
 .visible-lg {
-    display: block !important;
+    display: inline-block !important;
 }
 
 footer {
