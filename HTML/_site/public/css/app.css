@@ -972,7 +972,7 @@ table.service-booking-info tr td:last-child p {
 }
 
 .visible-lg {
-    display: inline-block !important;
+    display: block !important;
 }
 
 footer {
@@ -1186,7 +1186,7 @@ footer a:hover {
     }
 
     .visible-xs {
-        display: inline-block !important;
+        display: block !important;
     }
 
     footer {
