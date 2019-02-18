@@ -1,21 +1,31 @@
 /** Proxima Nova **/
+
 @font-face {
   font-family: 'Proxima Nova';
-  src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.eot");
-  src: url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff2") format("woff2"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff") format("woff"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf") format("truetype"), url("../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#proxima_nova_altregular") format("svg");
+  src: url('../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.eot');
+  src: url('../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff2') format('woff2'),
+  url('../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.woff') format('woff'),
+  url('../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.ttf') format('truetype'),
+  url('../fonts/Mark Simonson - Proxima Nova Alt Regular-webfont.svg#proxima_nova_altregular') format('svg');
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
+
 body {
-  font-family: 'Proxima Nova'; }
+  font-family: 'Proxima Nova';
+}
 
 input, button, a, table, tr, td, th, span, div, p, h1, h2, h3, h4, h5, h6, label, ul, li {
-  font-family: 'Proxima Nova'; }
+  font-family: 'Proxima Nova';
+}
 
 * {
   margin: 0px;
   padding: 0px;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: antialiased; }
+  -moz-osx-font-smoothing: antialiased;
+}
 
 img.bosh_logo {
   display: block;
@@ -24,7 +34,8 @@ img.bosh_logo {
   -moz-transform: translateY(40px);
   -ms-transform: translateY(40px);
   -o-transform: translateY(40px);
-  transform: translateY(40px); }
+  transform: translateY(40px);
+}
 
 button.btn-dimo {
   background: #024059;
@@ -33,49 +44,60 @@ button.btn-dimo {
   height: 44px;
   font-size: 14px;
   min-width: 180px;
-  box-shadow: 0px 2px 5px rgba(120, 120, 120, 0.5); }
+  box-shadow: 0px 2px 5px rgba(120, 120, 120, 0.5);
+}
 
 button.btn-dimo:hover {
-  background: #02648b; }
+  background: #02648b;
+}
 
 button.btn-dimo:active {
   background: #666666;
-  box-shadow: 0px 2px 5px #787878; }
+  box-shadow: 0px 2px 5px rgba(120, 120, 120, 1);
+}
 
 .modal-header {
   background: #f1f1f1;
-  border-bottom: thin solid #d8d8d8; }
+  border-bottom: thin solid #d8d8d8;
+}
 
 .modal-content > img {
   width: 140px;
   margin: 15px auto;
-  display: block; }
+  display: block;
+}
 
 .modal-body {
-  padding: 30px; }
+  padding: 30px;
+}
 
 .modal-footer button {
   width: 200px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 #dimo_theme {
   background: #fff;
   min-height: 100vh;
-  width: 100%; }
+  width: 100%;
+}
 
 #dimo_theme header {
   /*background: #004D6C;*/
   background: rgba(255, 255, 255, 0.15);
   height: 100px;
-  border-bottom: thin solid #d8d8d8; }
+  border-bottom: thin solid #d8d8d8;
+}
 
 #dimo_theme header .dimo_logo_wrapper {
-  /* border-right: thin solid #d8d8d8;*/ }
+  /* border-right: thin solid #d8d8d8;*/
+}
 
 #dimo_theme header img.tech_logo {
   width: 84px;
   margin: 15px 0px;
-  float: right; }
+  float: right;
+}
 
 #dimo_theme header h2 {
   color: #fff;
@@ -83,38 +105,49 @@ button.btn-dimo:active {
   padding-top: 35px;
   font-weight: bold;
   letter-spacing: 0px;
-  text-align: left; }
+  text-align: left;
+}
 
 #dimo_theme header img.dimo_logo {
   width: 175px !important;
-  margin: 15px 0px; }
+  margin: 15px 0px;
+}
 
 #dimo_theme header img.logo-white {
   -webkit-filter: brightness(2000%);
-  filter: brightness(2000%); }
+  filter: brightness(2000%);
+
+}
 
 #dimo_theme.dimo-bg {
   background: url("/public/images/dimo-bg.jpg") center center no-repeat;
-  background-size: cover; }
+  background-size: cover;
+}
 
 #dimo_theme.dimo-bg header {
   background: rgba(255, 255, 255, 0.15);
-  height: auto; }
+  height: auto;
+}
 
 #dimo_theme.dimo-bg header h2 {
-  padding-top: 35px; }
+  padding-top: 35px;
+
+}
 
 #dimo_theme .header_logo_wrapper {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 .dimo-landing {
-  min-height: 500px; }
+  min-height: 500px;
+}
 
 .dimo-landing header {
   background: rgba(255, 255, 255, 0.5);
   min-height: 100px;
-  border-bottom: thin solid #d8d8d8; }
+  border-bottom: thin solid #d8d8d8;
+}
 
 .dimo-landing header h2 {
   font-weight: bold;
@@ -122,30 +155,37 @@ button.btn-dimo:active {
   text-align: center;
   font-size: 24px;
   padding-top: 35px;
-  letter-spacing: 0px !important; }
+  letter-spacing: 0px !important;
+}
 
 .dimo-landing header img.tech_logo {
   width: 85px;
   margin: 15px 0px;
-  float: right; }
+  float: right;
+}
 
 .dimo-landing header img.dimo_logo {
   width: 175px !important;
-  margin: 15px 0px; }
+  margin: 15px 0px;
+}
 
 .bosh-landing {
-  min-height: 500px; }
+  min-height: 500px;
+}
 
 .bosh-landing .col-md-5 {
-  padding-top: 20px; }
+  padding-top: 20px;
+}
 
 .bosh-landing .col-md-5 > a {
   display: block;
   position: relative;
-  width: 100%; }
+  width: 100%;
+}
 
 .bosh-landing .col-md-5 > a img {
-  width: 100%; }
+  width: 100%;
+}
 
 .bosh-landing .col-md-5 > a button {
   font-size: 36px;
@@ -160,47 +200,57 @@ button.btn-dimo:active {
   border: thin solid rgba(0, 80, 100, 0.3);
   color: #fff;
   background: #076eac;
-  box-shadow: 0px 2px 10px rgba(51, 51, 51, 0.5); }
+  box-shadow: 0px 2px 10px rgba(51, 51, 51, 0.5);
+}
 
 .bosh-landing .col-md-5 > a button:hover {
-  background: #054f7b; }
+  background: #054f7b;
+}
 
 .bosh-landing header {
   background: #01424F;
-  height: 100px; }
+  height: 100px;
+}
 
 .bosh-landing header h2 {
   font-weight: bold;
   color: #fff;
   font-size: 24px;
   padding-top: 35px;
-  text-align: center; }
+  text-align: center;
+}
 
 #bosh_theme {
   background: #01424F;
   min-height: 100vh;
-  width: 100%; }
+  width: 100%;
+}
 
 #bosh_theme header {
   background: #005161;
-  height: 100px; }
+  height: 100px;
+}
 
 #bosh_theme header h2 {
   font-weight: bold;
   color: #fff;
   font-size: 24px;
-  padding-top: 60px; }
+  padding-top: 60px;
+}
 
 #bosh_theme.bosh-bg {
   background: url("/public/images/bosh-bg.jpg") center center no-repeat;
-  background-size: cover; }
+  background-size: cover;
+}
 
 #bosh_theme.bosh-bg header {
   background: transparent;
-  height: auto; }
+  height: auto;
+}
 
 #bosh_theme.bosh-bg header h2 {
-  padding-top: 44px; }
+  padding-top: 44px;
+}
 
 #bosh_theme.bosh-bg header img.bosh_logo {
   margin: 15px auto;
@@ -208,14 +258,17 @@ button.btn-dimo:active {
   -moz-transform: translate(0px);
   -ms-transform: translate(0px);
   -o-transform: translate(0px);
-  transform: translate(0px); }
+  transform: translate(0px);
+}
 
 .left-nav {
-  padding: 0px 0px; }
+  padding: 0px 0px;
+}
 
 .left-nav ul li {
   list-style: none;
-  margin-top: 1px; }
+  margin-top: 1px;
+}
 
 .left-nav ul li a {
   padding: 20px 30px;
@@ -224,28 +277,36 @@ button.btn-dimo:active {
   color: #fff;
   font-size: 16px;
   text-decoration: none;
-  margin: 0px 0px 0px -15px; }
+  margin: 0px 0px 0px -15px;
+}
 
 .left-nav ul li a:hover {
-  background: rgba(0, 0, 0, 0.35); }
+  background: rgba(0, 0, 0, 0.35);
+}
 
 .left-nav ul li img {
   margin-right: 15px;
-  float: left; }
+  float: left;
+}
 
 .left-nav ul li span {
-  display: block; }
+  display: block;
+}
 
 .left-nav ul li.active a {
-  background: rgba(0, 0, 0, 0.35); }
+  background: rgba(0, 0, 0, 0.35);
+}
 
 .brand-logo {
+
   width: auto;
   height: 45px;
-  margin-right: 15px; }
+  margin-right: 15px;
+}
 
 .login-form {
-  padding: 30px 0px; }
+  padding: 30px 0px;
+}
 
 .login-form > img {
   margin: 0 auto;
@@ -254,7 +315,8 @@ button.btn-dimo:active {
   -moz-transform: translateY(0px) !important;
   -ms-transform: translateY(0px) !important;
   -o-transform: translateY(0px) !important;
-  transform: translateY(0px) !important; }
+  transform: translateY(0px) !important;
+}
 
 .login-form .btn-facebook,
 .login-form .btn-google {
@@ -264,30 +326,37 @@ button.btn-dimo:active {
   text-align: center;
   height: 52px;
   line-height: 36px;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .login-form .btn-facebook:hover,
 .login-form .btn-google:hover {
-  background: #1d4a7e; }
+  background: #1d4a7e;
+}
 
 .login-form .btn-facebook i.fa,
 .login-form .btn-google i.fa {
-  margin-right: 7px; }
+  margin-right: 7px;
+}
 
 .login-form .btn-google {
-  background: #D9364A; }
+  background: #D9364A;
+}
 
 .login-form .btn-google:hover {
-  background: #b92335; }
+  background: #b92335;
+}
 
 .login-form .btn-submit {
   width: 100%;
-  font-size: 16px; }
+  font-size: 16px;
+}
 
 .login-form .or-divider {
   margin: 30px 0px;
   border-bottom: thin solid #909090;
-  width: 100%; }
+  width: 100%;
+}
 
 .login-form .or-divider p {
   text-align: center;
@@ -295,38 +364,46 @@ button.btn-dimo:active {
   width: 44px;
   margin: 0 auto;
   display: block;
-  transform: translateY(12px); }
+  transform: translateY(12px);
+}
 
 .login-form .form-element input[type="text"],
 .login-form .form-element input[type="password"] {
   box-shadow: none;
-  height: 52px; }
+  height: 52px;
+}
 
 .login-form .form-element input[type="text"]:focus,
 .login-form .form-element input[type="password"]:focus {
   border: 2px solid #004eac;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25); }
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
+}
 
 .login-form p {
-  color: #909090; }
+  color: #909090;
+}
 
 .login-form a {
   color: #84B9F8;
   font-weight: bold;
-  font-size: 13px; }
+  font-size: 13px;
+}
 
 .login-form h2 {
   color: #000;
   font-size: 24px;
-  margin: 0px 0px 15px 0px; }
+  margin: 0px 0px 15px 0px;
+}
 
 .form-content {
   min-height: 100vh;
-  margin: 0px -15px 0px -15px; }
+  margin: 0px -15px 0px -15px;
+}
 
 .form-content form {
   display: block;
-  padding: 15px 30px; }
+  padding: 15px 30px;
+}
 
 .form-content h2 {
   justify-content: left;
@@ -337,52 +414,63 @@ button.btn-dimo:active {
   font-weight: bold;
   padding: 10px 30px;
   background: #ece9e9;
-  position: relative; }
+  position: relative;
+}
 
 .form-content h2 label {
   font-size: 12px;
   padding: 7px 15px;
   border-radius: 4px;
-  margin: 0px 0px 0px 15px; }
+  margin: 0px 0px 0px 15px;
+}
 
 .form-content h2 button.btn-dimo {
   position: absolute;
   right: 15px;
-  width: 200px; }
+  width: 200px;
+}
 
 .form-element {
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+}
 
 .form-element .btn-check {
   background: #f1f1f1;
   height: 40px;
-  border: thin solid rgba(0, 80, 100, 0.3); }
+  border: thin solid rgba(0, 80, 100, 0.3);
+}
 
 .form-element .btn-check span {
   font-size: 9px;
   display: inline-block;
-  text-align: left; }
+  text-align: left;
+}
 
 .form-element label {
   font-weight: bold;
   color: #767676;
   display: block;
   font-size: 12px;
-  margin: 0px 0px 5px 0px; }
+  margin: 0px 0px 5px 0px;
+}
 
 .form-element a {
-  font-size: 13px; }
+  font-size: 13px;
+}
 
 .form-element a.btn {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 .form-element table tr td {
   padding: 3px 7px;
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
 .form-element .btn-dimo {
   width: 100%;
-  margin: 15px 0px; }
+  margin: 15px 0px;
+}
 
 .form-element textarea,
 .form-element input[type="text"],
@@ -399,7 +487,8 @@ button.btn-dimo:active {
   color: #000;
   border-radius: 4px;
   /*  box-shadow: 0px 2px 4px rgba(215, 215, 215, 0.5);*/
-  padding-left: 20px; }
+  padding-left: 20px;
+}
 
 .form-element textarea:focus,
 .form-element input[type="text"]:focus,
@@ -411,7 +500,8 @@ button.btn-dimo:active {
 .form-element select:focus {
   border: 1px solid #076eac;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.25);
-  background: #fff; }
+  background: #fff;
+}
 
 .form-element .btn-submit,
 .form-element .btn-clear {
@@ -421,16 +511,21 @@ button.btn-dimo:active {
   font-weight: bold;
   border: none;
   box-shadow: 0px 2px 5px rgba(120, 120, 120, 0.5);
-  margin: 15px 0px; }
+  margin: 15px 0px
+
+}
 
 .form-element .btn-clear {
-  background: #bababa; }
+  background: #bababa;
+}
 
 .form-element textarea {
-  height: 120px; }
+  height: 120px;
+}
 
 div.checkbox {
-  position: relative; }
+  position: relative;
+}
 
 div.checkbox input[type="checkbox"] {
   width: 24px;
@@ -439,7 +534,8 @@ div.checkbox input[type="checkbox"] {
   top: 0px;
   left: 0px;
   z-index: 1000;
-  opacity: 0; }
+  opacity: 0;
+}
 
 div.checkbox:after {
   position: absolute;
@@ -451,7 +547,8 @@ div.checkbox:after {
   display: block;
   border-radius: 4px;
   border: thin solid rgba(0, 80, 100, 0.3);
-  box-shadow: 0px 2px 4px rgba(215, 215, 215, 0.5); }
+  box-shadow: 0px 2px 4px rgba(215, 215, 215, 0.5);
+}
 
 div.checkbox.active:after {
   background: #388041;
@@ -459,36 +556,45 @@ div.checkbox.active:after {
   padding-top: 4px;
   text-align: center;
   color: #fff;
-  font: normal normal normal 14px/1 FontAwesome; }
+  font: normal normal normal 14px/1 FontAwesome;
+}
 
 div.checkbox label {
   font-size: 14px;
   margin-left: 35px;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .form-element .btn_select_vehicle {
   width: 180px;
   float: right;
-  margin: 15px 0px; }
+  margin: 15px 0px;
+
+}
 
 .profile-dropdown {
   float: right;
-  margin-top: 36px; }
+  margin-top: 36px;
+}
 
 .profile-dropdown button {
   padding-top: 10px;
   background: rgba(2, 64, 89, 0.5);
-  border: none; }
+  border: none;
+}
 
 .profile-dropdown button:hover {
-  background: #024059; }
+  background: #024059;
+}
 
 .profile-dropdown button:active {
-  background: #024059 !important; }
+  background: #024059 !important;
+}
 
 .profile-dropdown button img {
   float: left;
-  margin-right: 7px; }
+  margin-right: 7px;
+}
 
 .dimo-landing a {
   width: 220px;
@@ -514,34 +620,41 @@ div.checkbox label {
   -moz-transition: background .3s ease;
   -ms-transition: background .3s ease;
   -o-transition: background .3s ease;
-  transition: background .3s ease; }
+  transition: background .3s ease;
+}
 
 .dimo-landing a p {
   color: #666;
   font-size: 14px;
-  text-align: center; }
+  text-align: center;
+}
 
 .dimo-landing a img, .dimo-landing a figure {
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .dimo-landing a img.b-text {
   margin: 15px auto;
-  width: 120px; }
+  width: 120px;
+}
 
 .dimo-landing a img.c-logo {
   width: 180px;
-  margin-top: 65px; }
+  margin-top: 65px;
+}
 
 .dimo-landing a img.j-logo {
   width: 120px;
-  margin-top: 40px; }
+  margin-top: 40px;
+}
 
 .dimo-landing a figure.car {
   position: absolute;
   z-index: 1000;
   right: 15px;
-  bottom: -60px; }
+  bottom: -60px;
+}
 
 .dimo-landing a figure.car img {
   width: 230px;
@@ -554,38 +667,48 @@ div.checkbox label {
   -moz-transition: .2s ease;
   -ms-transition: .2s ease;
   -o-transition: .2s ease;
-  transition: .2s ease; }
+  transition: .2s ease;
+}
 
 .dimo-landing a figure.b-commercial {
-  bottom: -75px; }
+  bottom: -75px;
+}
 
 .dimo-landing a figure.b-commercial p {
   margin-top: 15px;
   font-weight: bold;
-  opacity: 0; }
+  opacity: 0;
+}
 
 .dimo-landing a figure.b-commercial:hover p {
-  opacity: 1; }
+  opacity: 1;
+}
 
 .dimo-landing a figure.b-passenger {
-  bottom: -90px; }
+  bottom: -90px;
+}
 
 .dimo-landing a figure.b-passenger p {
   margin-top: 15px;
   font-weight: bold;
-  opacity: 0; }
+  opacity: 0;
+}
 
 .dimo-landing a figure.b-passenger:hover p {
-  opacity: 1; }
+  opacity: 1;
+}
 
 .dimo-landing a figure.b-passenger img {
-  width: 220px; }
+  width: 220px;
+}
 
 .dimo-landing a figure.chrysler {
-  bottom: -30px; }
+  bottom: -30px;
+}
 
 .dimo-landing a figure.jeep {
-  bottom: -36px; }
+  bottom: -36px;
+}
 
 .dimo-landing a.b-passenger:hover,
 .dimo-landing a.b-commercial:hover {
@@ -599,7 +722,8 @@ div.checkbox label {
   background: linear-gradient(to bottom, #4c4c4c 0%, #000000 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4c4c4c', endColorstr='#000000', GradientType=0);
-  /* IE6-9 */ }
+  /* IE6-9 */
+}
 
 .dimo-landing a.b-passenger:hover figure.car.b-passenger img,
 .dimo-landing a.b-passenger:hover figure.car.b-commercial img,
@@ -609,13 +733,15 @@ div.checkbox label {
   -moz-transform: scale(1.05);
   -ms-transform: scale(1.05);
   -o-transform: scale(1.05);
-  transform: scale(1.05); }
+  transform: scale(1.05);
+}
 
 .dimo-landing a.b-passenger:hover img.b-text,
 .dimo-landing a.b-commercial:hover img.b-text {
   filter: brightness(500%);
   -ms-filter: progid:DXImageTransform.Microsoft.Alpha(brightness=500);
-  filter: progid:DXImageTransform.Microsoft.Alpha(brightness=500); }
+  filter: progid:DXImageTransform.Microsoft.Alpha(brightness=500);
+}
 
 .dimo-landing a.chrysler:hover {
   background: #4e7089;
@@ -627,14 +753,16 @@ div.checkbox label {
   background: linear-gradient(to bottom, #4e7089 0%, #014f8b 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4e7089', endColorstr='#014f8b', GradientType=0);
-  /* IE6-9 */ }
+  /* IE6-9 */
+}
 
 .dimo-landing a.chrysler:hover figure.car.chrysler img {
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   -ms-transform: scale(1.05);
   -o-transform: scale(1.05);
-  transform: scale(1.05); }
+  transform: scale(1.05);
+}
 
 .dimo-landing a.jeep:hover {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#899b00+0,435b07+100 */
@@ -647,19 +775,22 @@ div.checkbox label {
   background: linear-gradient(to bottom, #899b00 0%, #435b07 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#899b00', endColorstr='#435b07', GradientType=0);
-  /* IE6-9 */ }
+  /* IE6-9 */
+}
 
 .dimo-landing a.jeep:hover img.j-logo {
   filter: grayscale(500%);
   -ms-filter: progid:DXImageTransform.Microsoft.Alpha(grayscale=500);
-  filter: progid:DXImageTransform.Microsoft.Alpha(grayscale=500); }
+  filter: progid:DXImageTransform.Microsoft.Alpha(grayscale=500);
+}
 
 .dimo-landing a.jeep:hover figure.car.jeep img {
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   -ms-transform: scale(1.05);
   -o-transform: scale(1.05);
-  transform: scale(1.05); }
+  transform: scale(1.05);
+}
 
 .upload-profile-img {
   width: 180px;
@@ -673,74 +804,95 @@ div.checkbox label {
   align-items: center;
   flex-direction: column;
   font-size: 12px;
-  color: #999; }
+  color: #999;
+}
 
 .upload-profile-img i.fa {
   font-size: 36px;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+}
 
 .upload-profile-img:hover {
-  background: #f1f1f1; }
+  background: #f1f1f1;
+}
 
 .upload-profile-img input {
   position: absolute;
   width: 100%;
   height: 100%;
-  opacity: 0; }
+  opacity: 0;
+}
 
 #check_availability .modal-dialog {
   max-width: 900px;
-  margin: 1.75rem auto; }
+  margin: 1.75rem auto;
+}
 
 #check_availability .modal-header h5 {
-  font-weight: bold; }
+  font-weight: bold;
+
+}
 
 #check_availability .modal-header h5 span {
   display: block;
   font-size: 13px;
   color: #454545;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
 #check_availability .modal-footer button {
   display: block;
-  margin: 0 auto; }
+  margin: 0 auto;
+
+}
 
 #check_availability .form-element {
-  margin: 15px 0px 0px 0px; }
+  margin: 15px 0px 0px 0px;
+}
 
 #check_availability td p {
   font-size: 13px;
   font-weight: bold;
   text-align: center;
-  margin: 7px 0px; }
+  margin: 7px 0px;
+}
 
 #check_availability table {
   width: 720px;
   margin: 0 auto;
-  background: transparent; }
+  background: transparent;
+
+}
 
 #check_availability tr td {
   background: #fff;
-  border: none; }
+  border: none;
+}
 
 #check_availability table figure p {
   text-align: center;
-  margin: 0px; }
+  margin: 0px;
+
+}
 
 #check_availability table figure {
   width: 82px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 #check_availability table img {
   width: 82px;
   height: 82px;
   border-radius: 100px;
   border: 5px solid #fff;
-  box-shadow: 0px 2px 4px rgba(120, 120, 120, 0.5); }
+  box-shadow: 0px 2px 4px rgba(120, 120, 120, 0.5);
+}
 
 #check_availability div.radio-time {
   position: relative;
-  width: 100%; }
+  width: 100%;
+
+}
 
 #check_availability div.radio-time input[type="radio"] {
   width: 100%;
@@ -749,7 +901,8 @@ div.checkbox label {
   left: 0px;
   height: 44px;
   z-index: 10;
-  opacity: 0; }
+  opacity: 0;
+}
 
 #check_availability div.radio-time label {
   color: #417505;
@@ -762,32 +915,40 @@ div.checkbox label {
   border-radius: 44px;
   width: 100%;
   background: #D8E2CD;
-  -webkit-box-shadow: 0px 2px 4px rgba(120, 120, 120, 0.5);
-  -moz-box-shadow: 0px 2px 4px rgba(120, 120, 120, 0.5);
-  box-shadow: 0px 2px 4px rgba(120, 120, 120, 0.5); }
+  -webkit-box-shadow: 0px 2px 4px rgba(120, 120, 120, .5);
+  -moz-box-shadow: 0px 2px 4px rgba(120, 120, 120, .5);
+  box-shadow: 0px 2px 4px rgba(120, 120, 120, .5);
+
+}
 
 #check_availability div.radio-time:hover label,
 #check_availability div.radio-time.selected label {
   background: #417505;
   color: #fff;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 #check_availability div.radio-time:active label {
   background: #fff;
-  color: #417505; }
+  color: #417505;
+}
 
 #check_availability div.radio-time label.not-available, #check_availability div.radio-time label.not-available:hover,
 #check_availability div.radio-time label.not-available:active,
 #check_availability div.radio-time.selected label.not-available {
   background: #AAAAAA;
   color: #d3d3d3;
-  cursor: not-allowed; }
+  cursor: not-allowed;
+
+}
 
 table.service-booking-info td p {
-  margin: 0px; }
+  margin: 0px;
+}
 
 table.service-booking-info tr td:last-child p {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 #mobile_menu_trigger {
   display: none;
@@ -798,17 +959,21 @@ table.service-booking-info tr td:last-child p {
   position: absolute;
   right: 5px;
   text-align: center;
-  top: 20px; }
+  top: 20px;
+}
 
 .visible-xs,
 .hidden-xs {
-  display: none !important; }
+  display: none !important;
+}
 
 .hidden-lg {
-  display: none !important; }
+  display: none !important;
+}
 
 .visible-lg {
-  display: block !important; }
+  display: block !important;
+}
 
 footer {
   padding: 10px 0px;
@@ -817,198 +982,24 @@ footer {
   position: fixed;
   width: 100%;
   bottom: 0px;
-  z-index: 1000; }
+  z-index: 1000;
+}
 
 footer p {
   color: #fff;
-  margin: 0px; }
+  margin: 0px;
+}
 
 footer a {
-  color: #deece6; }
+  color: #deece6;
+}
 
 footer a:hover {
-  color: #fff; }
+  color: #fff;
+}
 
 .bg-transparent-50 {
-  background: rgba(0, 0, 0, 0.35) !important; }
-
-/*# sourceMappingURL=app.css.map */
-@media all and (max-width: 980px) {
-  .left-nav ul li img {
-    margin: 0 auto;
-    display: block;
-    float: none; }
-
-  .left-nav ul li span {
-    text-align: center;
-    font-size: 12px; }
-
-  #dimo_theme header .dimo_logo_wrapper img.dimo_logo {
-    width: 100% !important;
-    margin-top: 34px; }
-
-  #dimo_theme.dimo-bg header h2 {
-    padding-top: 20px; }
-
-  .dimo-landing a {
-    width: auto;
-    height: 200px; }
-
-  .dimo-landing a img.c-logo {
-    width: 100px; }
-
-  .dimo-landing a figure.car img {
-    width: 120px; } }
-@media all and (max-width: 767px) {
-  .left-nav nav ul {
-    display: none; }
-
-  #mobile_menu_trigger {
-    display: block; }
-
-  #dimo_theme header {
-    height: auto; }
-
-  #dimo_theme.dimo-bg header img.dimo_logo {
-    width: 100px !important;
-    margin: 10px auto 10px auto; }
-
-  .profile-dropdown {
-    margin: 0px; }
-
-  #dimo_theme.dimo-bg header h2 {
-    padding-top: 0px;
-    font-size: 16px;
-    text-align: center; }
-
-  .login-form {
-    padding: 30px 0px; }
-
-  #dimo_theme header img.dimo_logo {
-    width: 100px !important; }
-
-  #dimo_theme header h2 {
-    padding: 10px;
-    font-size: 16px; }
-
-  .dimo-landing header {
-    height: auto; }
-
-  .dimo-landing header h2 {
-    font-size: 16px;
-    padding: 15px 0px; }
-
-  #check_availability .modal-body {
-    overflow: scroll; }
-
-  .dimo-landing p.my-4 {
-    margin: 10px 0px !important; }
-
-  .dimo-landing header img.dimo_logo {
-    width: 100px !important;
-    margin: 15px 15px; }
-  .dimo-landing a {
-    height: 250px;
-    margin-bottom: 20px !important;
-    transform: scale(0.8); }
-    .dimo-landing a figure.car {
-      position: relative;
-      right: auto;
-      bottom: 0px; }
-      .dimo-landing a figure.car img {
-        width: 230px; }
-    .dimo-landing a figure.b-commercial {
-      bottom: -30px; }
-      .dimo-landing a figure.b-commercial img {
-        width: 250px; }
-    .dimo-landing a img.c-logo {
-      width: 200px;
-      margin-top: 45px; }
-    .dimo-landing a figure.chrysler {
-      bottom: -30px; }
-      .dimo-landing a figure.chrysler img {
-        width: 250px; }
-
-  .form-content h2 {
-    font-size: 16px; }
-
-  img.dimo_logo, img.bosh_logo {
-    margin: 20px auto 0px auto;
-    -webkit-transform: translateY(0);
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
-    -o-transform: translateY(0);
-    transform: translateY(0); }
-
-  #bosh_theme.bosh-bg header h2 {
-    padding: 0px; }
-
-  #bosh_theme.bosh-bg header img.bosh_logo {
-    width: 64px; }
-
-  #bosh_theme.bosh-bg header h2 {
-    font-size: 16px;
-    text-align: Center; }
-
-  .booking-history-table {
-    margin: -20px; }
-
-  .table .thead-dark th {
-    font-size: 10px;
-    /*width: 40px;*/ }
-
-  .form-content h2 button.btn-dimo {
-    position: absolute;
-    right: 45px;
-    width: 100px;
-    min-width: 130px; }
-
-  .table td .btn-link {
-    margin-top: 3px; }
-
-  .table td, .table th {
-    padding: 3px; }
-
-  table.table-mobile > tr:nth-child(odd) td {
-    border-bottom: thin solid #d7d7d7;
-    padding-bottom: 5px; }
-
-  table.mobile-record tr td {
-    padding: 10px; }
-
-  table.mobile-record {
-    width: 100%; }
-
-  table.mobile-record tr td:first-child {
-    background: #000;
-    color: #fff;
-    font-weight: bold;
-    width: 140px; }
-
-  .hidden-lg {
-    display: none !important; }
-
-  .visible-lg {
-    display: none !important; }
-
-  .visible-xs {
-    display: block !important; }
-
-  footer {
-    padding: 10px 0px;
-    background: #235E7E;
-    height: auto;
-    position: relative;
-    width: 100%;
-    bottom: 0px;
-    z-index: 1000; }
-
-  .dimo-landing header .dimo_logo_wrapper img.tech_logo {
-    width: 60px !important;
-    /*border-right: thin solid #d8d8d8;*/ }
-
-  #dimo_theme header .dimo_logo_wrapper img.tech_logo {
-    width: 60px;
-    /*border-right: thin solid #d8d8d8;*/ } }
+  background: rgba(0, 0, 0, 0.35) !important;
+}
 
 /*# sourceMappingURL=app.css.map */

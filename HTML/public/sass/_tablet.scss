@@ -1,0 +1,34 @@
+@media all and (max-width: 980px) {
+  .left-nav ul li img {
+    margin: 0 auto;
+    display: block;
+    float: none;
+  }
+
+  .left-nav ul li span {
+    text-align: center;
+    font-size: 12px;
+  }
+
+  #dimo_theme header .dimo_logo_wrapper img.dimo_logo {
+    width: 100% !important;
+    margin-top: 34px;
+  }
+
+  #dimo_theme.dimo-bg header h2 {
+    padding-top: 20px;
+  }
+
+  .dimo-landing a {
+    width: auto;
+    height: 200px;
+  }
+
+  .dimo-landing a img.c-logo {
+    width: 100px;
+  }
+
+  .dimo-landing a figure.car img {
+    width: 120px;
+  }
+}

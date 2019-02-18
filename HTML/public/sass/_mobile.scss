@@ -1,0 +1,208 @@
+@media all and (max-width: 767px) {
+  .left-nav nav ul {
+    display: none;
+  }
+
+  #mobile_menu_trigger {
+    display: block;
+  }
+
+  #dimo_theme header {
+    height: auto;
+  }
+
+  #dimo_theme.dimo-bg header img.dimo_logo {
+    width: 100px !important;
+    margin: 10px auto 10px auto;
+  }
+
+  .profile-dropdown {
+    margin: 0px;
+  }
+
+  #dimo_theme.dimo-bg header h2 {
+    padding-top: 0px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .login-form {
+    padding: 30px 0px;
+  }
+
+  #dimo_theme header img.dimo_logo {
+    width: 100px !important;
+  }
+
+  #dimo_theme header h2 {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .dimo-landing header {
+    height: auto;
+  }
+
+  .dimo-landing header h2 {
+    font-size: 16px;
+    padding: 15px 0px;
+
+  }
+
+  #check_availability .modal-body {
+    overflow: scroll;
+  }
+
+  .dimo-landing p.my-4 {
+    margin: 10px 0px !important;
+  }
+
+  .dimo-landing {
+    header img.dimo_logo {
+      width: 100px !important;
+      margin: 15px 15px;
+    }
+
+    a {
+      height: 250px;
+      margin-bottom: 20px !important;
+      transform: scale(.8);
+
+      figure.car {
+        position: relative;
+        right: auto;
+        bottom: 0px;
+
+        img {
+          width: 230px;
+        }
+      }
+
+      figure.b-commercial {
+        bottom: -30px;
+        img {
+          width: 250px;
+        }
+      }
+
+      figure.b-passenger {
+
+      }
+
+      img.c-logo {
+        width: 200px;
+        margin-top: 45px;
+      }
+      figure.chrysler {
+        bottom: -30px;
+        img {
+          width: 250px;
+        }
+      }
+
+    }
+  }
+
+  .form-content h2 {
+    font-size: 16px;
+  }
+
+  img.dimo_logo, img.bosh_logo {
+    margin: 20px auto 0px auto;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  #bosh_theme.bosh-bg header h2 {
+    padding: 0px;
+
+  }
+
+  #bosh_theme.bosh-bg header img.bosh_logo {
+    width: 64px;
+  }
+
+  #bosh_theme.bosh-bg header h2 {
+    font-size: 16px;
+    text-align: Center;
+  }
+
+  .booking-history-table {
+    margin: -20px;
+  }
+
+  .table .thead-dark th {
+    font-size: 10px;
+    /*width: 40px;*/
+  }
+
+  .form-content h2 button.btn-dimo {
+    position: absolute;
+    right: 45px;
+    width: 100px;
+    min-width: 130px;
+  }
+
+  .table td .btn-link {
+    margin-top: 3px;
+  }
+
+  .table td, .table th {
+    padding: 3px;
+  }
+
+  table.table-mobile > tr:nth-child(odd) td {
+    border-bottom: thin solid #d7d7d7;
+    padding-bottom: 5px;
+  }
+
+  table.mobile-record tr td {
+    padding: 10px;
+  }
+
+  table.mobile-record {
+    width: 100%;
+  }
+
+  table.mobile-record tr td:first-child {
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+    width: 140px;
+  }
+
+  .hidden-lg {
+    display: none !important;
+  }
+
+  .visible-lg {
+    display: none !important;
+  }
+
+  .visible-xs {
+    display: block !important;
+  }
+
+  footer {
+    padding: 10px 0px;
+    background: #235E7E;
+    height: auto;
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+    z-index: 1000;
+  }
+
+  .dimo-landing header .dimo_logo_wrapper img.tech_logo {
+    width: 60px !important;
+    /*border-right: thin solid #d8d8d8;*/
+  }
+
+  #dimo_theme header .dimo_logo_wrapper img.tech_logo {
+    width: 60px;
+    /*border-right: thin solid #d8d8d8;*/
+  }
+}
